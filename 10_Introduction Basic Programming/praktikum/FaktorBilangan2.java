@@ -11,7 +11,7 @@ public class FaktorBilangan2 {
 
     System.out.println("Output : ");
 
-        for(int i=bilangan;i<=bilangan;i--) {
+        for(int i=bilangan;i>0;i--) {
             if(bilangan%i == 0)
             {
                 System.out.println(i);
