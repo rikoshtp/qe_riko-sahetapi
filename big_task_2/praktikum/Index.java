@@ -22,7 +22,7 @@ public class Index {
             for (int j = 0; j <huruf[0].length; j++) {
                 if(inp == huruf[i][j]){
                     cek = true;
-                    System.out.println(inp+" Masuk Pada Indeks Ke = ["+i+"] ["+j+"]");
+                    System.out.println(i+j);
                 }
             }
         }
