@@ -1,9 +1,10 @@
-# Resume
+# (14) Pengenalan RESTful API
+## Resume
 1. API & REST API
 2. JSON dan HTTP Respons
 3. API TESTING
 
-## API & REST API
+### API & REST API
 
 API adalah singkatan untuk "Application Programming Interface". API memungkinkan komunikasi dan pertukaran data antara 2 atau lebih software/ sistem yang terpisah.
 
@@ -26,7 +27,7 @@ Merupakan standar arsitektur komunikasi berbasis web yang sering diterapkan dala
 - **Header** : Adalah kumpulan field dan value yang terkait dengan pemberian informasi tentang pesan ke penerima. Header juga berisi informasi autentifikasi yang memberitahu bahwa pesan tersebut sah
 - **Body** : request body mendefinisikan parameter apa yang dikirim ke server, ini menentukan informasi yang diupdate, dibuat, maupun dihapus.
 
-## JSON & HTTP Respons
+### JSON & HTTP Respons
 
 JSON (Javascript object notation) adalah sebuah format data yang digunakan untuk pertukaran dan penyimpanan data. JSON merupakan bagian dari Javascript, bisa dibaca dengan berbagai bahasa pemrograman.
 
@@ -50,7 +51,7 @@ JSON (Javascript object notation) adalah sebuah format data yang digunakan untuk
 - 405 Method, HTTP Method yang digunakan ketika request tidak support atau salah http methodnya, misal ingin melakukan post tapi menggunakan method get.
 - 500 Internal, Error karena kesalahan di server
 
-## API TESTING
+### API TESTING
 
 API Testing adalah test yang dilakukan pada layer dimana API yang didesign untuk berinteraksi atau komunikasi pada aplikasi dipastikan functionalitasnya melalui rangkaian atau set dari sebuah test. Sederhananya API Testing diharapkan bisa memberikan gambaran bagaimana respon dari aplikasi web tanpa ataupun sebelum GUI-nya siap. API Testing bertujuan meluaskan cakupan testing itu sendiri dan melakukan testing sedini mungkin, dimana GUI masih belum sepenuhnya belum siap untuk ditest.
 
