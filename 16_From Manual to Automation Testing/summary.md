@@ -67,4 +67,8 @@ Automation Testing adalah pengujian yang menggunakan tools/script untuk menguji 
 # TASK
 ![image](https://user-images.githubusercontent.com/75010847/158918210-5ed1034f-5c55-4e3b-b657-c397bf87ab93.png)
 
+Pada pengujian otomatis terhadap API dengan 4 method yang diuji telah berhasil diselesaikan dengan SUKSES. hasil method GET mendapatkan kecepatan tertinggi dalam proses mengujian, kemudian DELETE mendapat kecepatan terendah/terlama dalam proses pengujian.
+
 ![image](https://user-images.githubusercontent.com/75010847/158918234-c0d79121-8c83-432e-be28-1b4fa69c2f75.png)
+
+Dalam pengujian pada beberapa fitur seperti petstore, search, dan shopping cart. Petstore telah sukses 100 persen dengan 1 kali percobaan. kemudian Search mendapat 75 persen dengan 4 kali percobaan,dan Shopping Cart mendapatkan 50 persen dengan 2 kali percobaan.
