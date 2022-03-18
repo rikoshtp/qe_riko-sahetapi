@@ -63,3 +63,8 @@ Automation Testing adalah pengujian yang menggunakan tools/script untuk menguji 
 3. Planning, design and development
 4. Test execution
 5. Maintenance
+
+# TASK
+![image](https://user-images.githubusercontent.com/75010847/158918210-5ed1034f-5c55-4e3b-b657-c397bf87ab93.png)
+
+![image](https://user-images.githubusercontent.com/75010847/158918234-c0d79121-8c83-432e-be28-1b4fa69c2f75.png)
