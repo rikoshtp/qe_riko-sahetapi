@@ -1,0 +1,11 @@
+starter\stepdefinitions\FindpersonStep.class
+starter\signin\Signin.class
+starter\join\Join.class
+starter\person\Person.class
+starter\stepdefinitions\LearnStep.class
+starter\job\Job.class
+starter\CucumberTestSuite.class
+starter\learn\Learn.class
+starter\stepdefinitions\JoinnowSteps.class
+starter\stepdefinitions\SearchjobStep.class
+starter\stepdefinitions\SigninStep.class

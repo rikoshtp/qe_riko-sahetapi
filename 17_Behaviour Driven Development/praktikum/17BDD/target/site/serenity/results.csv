@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"FindPerson","The User can find the person he is looking for","SUCCESS","2022-03-22T23:56:23.9917169+07:00[Asia/Bangkok]","0.0","1.03"
+"JoinNow","As an user, i want to success register using valid data","SUCCESS","2022-03-22T23:56:25.0536785+07:00[Asia/Bangkok]","0.0","0.06"
+"Learning","The User can find and join the course","SUCCESS","2022-03-22T23:56:25.1376212+07:00[Asia/Bangkok]","0.0","0.05"
+"SearchJob","As a user i want to apply the job","SUCCESS","2022-03-22T23:56:25.2104274+07:00[Asia/Bangkok]","0.0","0.03"
+"Login","As a user, I want update my profile","SUCCESS","2022-03-22T23:56:25.2712655+07:00[Asia/Bangkok]","0.0","0.05"
