@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="2" name="Account" skipped="0" tests="3" time="8.72" timestamp="2022-03-27 10:14:43"><testcase name="POST - As admin i have be able to login and access my account"><failure message="1 expectation failed.&#10;XML path 'userName' doesn't match.&#10;Expected: rikosh&#10;  Actual: &lt;nullErrorCannot POST /Account/v1/Authorizedusers&gt;&#10;" type="java.lang.AssertionError">1 expectation failed.
+XML path 'userName' doesn't match.
+Expected: rikosh
+  Actual: &lt;nullErrorCannot POST /Account/v1/Authorizedusers&gt;
+</failure><system-err>1 expectation failed.
+XML path 'userName' doesn't match.
+Expected: rikosh
+  Actual: &lt;nullErrorCannot POST /Account/v1/Authorizedusers&gt;
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:262)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:109)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)&#13;
+starter.account.Post.lambda$receiveValidDataForLoginUser$0(Post.java:29)&#13;
+net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
+starter.account.Post.receiveValidDataForLoginUser(Post.java:29)&#13;
+starter.stepdefinitions.AccountStep.receiveValidDataForDetailUser(AccountStep.java:42)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:57)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:95)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)&#13;
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:58)&#13;
+</system-err></testcase><testcase name="GET - As admin i have be able to get detail user by Id"><failure message="1 expectation failed.&#10;XML path 'userName' doesn't match.&#10;Expected: rikosh&#10;  Actual: &lt;nullnullnullnullasync function detectAdBlock(){let e=!1;try{await fetch(new Request(&quot;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;)).catch(a=&gt;e=!0)}catch(a){e=!1}finally{!0===e&amp;&amp;dataLayer.push({event:&quot;Ad Blocker&quot;}),console.log(&quot;AdBlock Enabled: ${adBlockEnabled}&quot;)}}detectAdBlock()nullToolsQAnullvar gptadslots=[],googletag=googletag||{cmd:[]}googletag.cmd.push((function(){var e=googletag.sizeMapping().addSize([0,0],[[320,50],[300,75],[300,50]]).addSize([730,200],[[728,90],[468,60]]).addSize([975,200],[[970,90],[728,90],[960,90],[750,100],[950,90],[468,60]]).build();gptadslots.push(googletag.defineSlot(&quot;/21849154601,22343295815/Ad.Plus-Anchor&quot;,[[320,100]],&quot;adplus-anchor&quot;).setTargeting(&quot;site&quot;,[&quot;demoqa.com&quot;]).defineSizeMapping(e).addService(googletag.pubads())),googletag.enableServices()}))nullgoogletag.cmd.push((function(){googletag.display(&quot;adplus-anchor&quot;)}))!function(e,t,a,n,g){e[n]=e[n]||[],e[n].push({&quot;gtm.start&quot;:(new Date).getTime(),event:&quot;gtm.js&quot;});var m=t.getElementsByTagName(a)[0],r=t.createElement(a);r.async=!0,r.src=&quot;https://www.googletagmanager.com/gtm.js?id=GTM-MX8DD4S&quot;,m.parentNode.insertBefore(r,m)}(window,document,&quot;script&quot;,&quot;dataLayer&quot;)nullnullnullnullnullnull&gt;&#10;" type="java.lang.AssertionError">1 expectation failed.
+XML path 'userName' doesn't match.
+Expected: rikosh
+  Actual: &lt;nullnullnullnullasync function detectAdBlock(){let e=!1;try{await fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")).catch(a=&gt;e=!0)}catch(a){e=!1}finally{!0===e&amp;&amp;dataLayer.push({event:"Ad Blocker"}),console.log("AdBlock Enabled: ${adBlockEnabled}")}}detectAdBlock()nullToolsQAnullvar gptadslots=[],googletag=googletag||{cmd:[]}googletag.cmd.push((function(){var e=googletag.sizeMapping().addSize([0,0],[[320,50],[300,75],[300,50]]).addSize([730,200],[[728,90],[468,60]]).addSize([975,200],[[970,90],[728,90],[960,90],[750,100],[950,90],[468,60]]).build();gptadslots.push(googletag.defineSlot("/21849154601,22343295815/Ad.Plus-Anchor",[[320,100]],"adplus-anchor").setTargeting("site",["demoqa.com"]).defineSizeMapping(e).addService(googletag.pubads())),googletag.enableServices()}))nullgoogletag.cmd.push((function(){googletag.display("adplus-anchor")}))!function(e,t,a,n,g){e[n]=e[n]||[],e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var m=t.getElementsByTagName(a)[0],r=t.createElement(a);r.async=!0,r.src="https://www.googletagmanager.com/gtm.js?id=GTM-MX8DD4S",m.parentNode.insertBefore(r,m)}(window,document,"script","dataLayer")nullnullnullnullnullnull&gt;
+</failure><system-err>1 expectation failed.
+XML path 'userName' doesn't match.
+Expected: rikosh
+  Actual: &lt;nullnullnullnullasync function detectAdBlock(){let e=!1;try{await fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")).catch(a=&gt;e=!0)}catch(a){e=!1}finally{!0===e&amp;&amp;dataLayer.push({event:"Ad Blocker"}),console.log("AdBlock Enabled: ${adBlockEnabled}")}}detectAdBlock()nullToolsQAnullvar gptadslots=[],googletag=googletag||{cmd:[]}googletag.cmd.push((function(){var e=googletag.sizeMapping().addSize([0,0],[[320,50],[300,75],[300,50]]).addSize([730,200],[[728,90],[468,60]]).addSize([975,200],[[970,90],[728,90],[960,90],[750,100],[950,90],[468,60]]).build();gptadslots.push(googletag.defineSlot("/21849154601,22343295815/Ad.Plus-Anchor",[[320,100]],"adplus-anchor").setTargeting("site",["demoqa.com"]).defineSizeMapping(e).addService(googletag.pubads())),googletag.enableServices()}))nullgoogletag.cmd.push((function(){googletag.display("adplus-anchor")}))!function(e,t,a,n,g){e[n]=e[n]||[],e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var m=t.getElementsByTagName(a)[0],r=t.createElement(a);r.async=!0,r.src="https://www.googletagmanager.com/gtm.js?id=GTM-MX8DD4S",m.parentNode.insertBefore(r,m)}(window,document,"script","dataLayer")nullnullnullnullnullnull&gt;
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:262)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:109)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)&#13;
+starter.account.Post.lambda$receiveValidDataForLoginUser$0(Post.java:29)&#13;
+net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
+starter.account.Post.receiveValidDataForLoginUser(Post.java:29)&#13;
+starter.stepdefinitions.AccountStep.receiveValidDataForDetailUser(AccountStep.java:44)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:57)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:95)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)&#13;
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:58)&#13;
+</system-err></testcase><testcase name="DELETE - As admin i have be able to delete user"/></testsuite>

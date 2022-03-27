@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="starter.CucumberTestSuite" time="23.532" tests="7" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\RICO\IdeaProjects\18restful-api\target\test-classes;C:\Users\RICO\IdeaProjects\18restful-api\target\18restful-api-1.0-SNAPSHOT.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-core\3.2.1\serenity-core-3.2.1.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-model\3.2.1\serenity-model-3.2.1.jar;C:\Users\RICO\.m2\repository\org\apache\commons\commons-text\1.9\commons-text-1.9.jar;C:\Users\RICO\.m2\repository\commons-net\commons-net\3.8.0\commons-net-3.8.0.jar;C:\Users\RICO\.m2\repository\com\google\inject\guice\5.1.0\guice-5.1.0.jar;C:\Users\RICO\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\RICO\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\RICO\.m2\repository\org\jsoup\jsoup\1.14.3\jsoup-1.14.3.jar;C:\Users\RICO\.m2\repository\com\thoughtworks\xstream\xstream\1.4.19\xstream-1.4.19.jar;C:\Users\RICO\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar;C:\Users\RICO\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\RICO\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\RICO\.m2\repository\com\typesafe\config\1.4.2\config-1.4.2.jar;C:\Users\RICO\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\RICO\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\RICO\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\RICO\.m2\repository\io\github\classgraph\classgraph\4.8.138\classgraph-4.8.138.jar;C:\Users\RICO\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\RICO\.m2\repository\net\bytebuddy\byte-buddy\1.12.8\byte-buddy-1.12.8.jar;C:\Users\RICO\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.8\byte-buddy-agent-1.12.8.jar;C:\Users\RICO\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-reports\3.2.1\serenity-reports-3.2.1.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-stats\3.2.1\serenity-stats-3.2.1.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-reports-configuration\3.2.1\serenity-reports-configuration-3.2.1.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\RICO\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\RICO\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\RICO\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\RICO\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\RICO\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\RICO\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\RICO\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\RICO\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\RICO\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\RICO\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\RICO\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-report-resources\3.2.1\serenity-report-resources-3.2.1.jar;C:\Users\RICO\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\RICO\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar;C:\Users\RICO\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2\jackson-databind-2.13.2.jar;C:\Users\RICO\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar;C:\Users\RICO\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\RICO\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.2\selenium-java-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.2\selenium-devtools-v95-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.2\selenium-devtools-v96-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v97\4.1.2\selenium-devtools-v97-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.2\selenium-firefox-xpi-driver-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.2\selenium-opera-driver-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.2\selenium-safari-driver-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.2\selenium-api-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.2\selenium-support-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.2\selenium-chrome-driver-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.2\selenium-chromium-driver-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.2\selenium-firefox-driver-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.2\selenium-edge-driver-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.2\selenium-ie-driver-4.1.2.jar;C:\Users\RICO\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\RICO\.m2\repository\io\appium\java-client\8.0.0\java-client-8.0.0.jar;C:\Users\RICO\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\RICO\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\RICO\.m2\repository\org\aspectj\aspectjweaver\1.9.8\aspectjweaver-1.9.8.jar;C:\Users\RICO\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\RICO\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\RICO\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\RICO\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\RICO\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\RICO\.m2\repository\io\github\bonigarcia\webdrivermanager\5.1.0\webdrivermanager-5.1.0.jar;C:\Users\RICO\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\RICO\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\RICO\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\RICO\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\RICO\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\RICO\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\RICO\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\RICO\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\RICO\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\RICO\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\RICO\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\RICO\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\RICO\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\RICO\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\RICO\.m2\repository\com\paulhammant\ngwebdriver\1.1.6\ngwebdriver-1.1.6.jar;C:\Users\RICO\.m2\repository\joda-time\joda-time\2.8.2\joda-time-2.8.2.jar;C:\Users\RICO\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\RICO\.m2\repository\com\google\jimfs\jimfs\1.2\jimfs-1.2.jar;C:\Users\RICO\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\RICO\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\RICO\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\RICO\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\RICO\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\RICO\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\RICO\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\RICO\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-cucumber\3.2.1\serenity-cucumber-3.2.1.jar;C:\Users\RICO\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\RICO\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\RICO\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\RICO\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\RICO\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\RICO\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\RICO\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\RICO\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\RICO\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\RICO\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\RICO\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\RICO\.m2\repository\io\cucumber\cucumber-junit\7.2.3\cucumber-junit-7.2.3.jar;C:\Users\RICO\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-screenplay\3.2.1\serenity-screenplay-3.2.1.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\3.2.1\serenity-screenplay-webdriver-3.2.1.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-ensure\3.2.1\serenity-ensure-3.2.1.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-junit\3.2.1\serenity-junit-3.2.1.jar;C:\Users\RICO\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.6.0\kotlin-stdlib-1.6.0.jar;C:\Users\RICO\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\RICO\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.6.0\kotlin-stdlib-common-1.6.0.jar;C:\Users\RICO\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\RICO\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\RICO\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\RICO\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\RICO\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\RICO\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\RICO\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\RICO\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\RICO\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\RICO\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\RICO\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\RICO\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\RICO\.m2\repository\org\assertj\assertj-core\3.22.0\assertj-core-3.22.0.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-rest-assured\3.2.1\serenity-rest-assured-3.2.1.jar;C:\Users\RICO\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\RICO\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\RICO\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\RICO\.m2\repository\org\codehaus\groovy\groovy-json\3.0.10\groovy-json-3.0.10.jar;C:\Users\RICO\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\RICO\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\RICO\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\RICO\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\RICO\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\RICO\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\RICO\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\RICO\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\RICO\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\RICO\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\RICO\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\RICO\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\RICO\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\RICO\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\RICO\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\RICO\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\RICO\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\RICO\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\RICO\.m2\repository\org\codehaus\plexus\plexus-java\1.0.5\plexus-java-1.0.5.jar;C:\Users\RICO\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\RICO\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M9\qdox-2.0-M9.jar;C:\Users\RICO\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;C:\Users\RICO\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\RICO\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\RICO\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\RICO\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\RICO\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\RICO\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\RICO\.m2\repository\org\codehaus\groovy\groovy\3.0.10\groovy-3.0.10.jar;C:\Users\RICO\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.10\groovy-xml-3.0.10.jar;C:\Users\RICO\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.2\selenium-devtools-v85-4.1.2.jar;C:\Users\RICO\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\RICO\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\RICO\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\RICO\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\RICO\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\RICO\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\RICO\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\RICO\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\RICO\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\RICO\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.2\selenium-json-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.2\selenium-remote-driver-4.1.2.jar;C:\Users\RICO\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\RICO\.m2\repository\io\netty\netty-buffer\4.1.73.Final\netty-buffer-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-codec-http\4.1.73.Final\netty-codec-http-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-codec\4.1.73.Final\netty-codec-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-handler\4.1.73.Final\netty-handler-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-tcnative-classes\2.0.46.Final\netty-tcnative-classes-2.0.46.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-common\4.1.73.Final\netty-common-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.73.Final\netty-transport-classes-epoll-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.73.Final\netty-transport-classes-kqueue-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-transport-native-epoll\4.1.73.Final\netty-transport-native-epoll-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.73.Final\netty-transport-native-kqueue-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.73.Final\netty-transport-native-unix-common-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-transport\4.1.73.Final\netty-transport-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-resolver\4.1.73.Final\netty-resolver-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\opentelemetry\opentelemetry-api\1.10.1\opentelemetry-api-1.10.1.jar;C:\Users\RICO\.m2\repository\io\opentelemetry\opentelemetry-context\1.10.1\opentelemetry-context-1.10.1.jar;C:\Users\RICO\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.10.1\opentelemetry-exporter-logging-1.10.1.jar;C:\Users\RICO\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.10.1-alpha\opentelemetry-sdk-metrics-1.10.1-alpha.jar;C:\Users\RICO\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.10.1-alpha\opentelemetry-sdk-logs-1.10.1-alpha.jar;C:\Users\RICO\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.10.1\opentelemetry-sdk-common-1.10.1.jar;C:\Users\RICO\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.10.1\opentelemetry-sdk-extension-autoconfigure-spi-1.10.1.jar;C:\Users\RICO\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.10.1-alpha\opentelemetry-sdk-extension-autoconfigure-1.10.1-alpha.jar;C:\Users\RICO\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.10.1\opentelemetry-sdk-trace-1.10.1.jar;C:\Users\RICO\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.10.1\opentelemetry-sdk-1.10.1.jar;C:\Users\RICO\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.10.1-alpha\opentelemetry-semconv-1.10.1-alpha.jar;C:\Users\RICO\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\RICO\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\RICO\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\RICO\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\RICO\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\RICO\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\RICO\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\RICO\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.2\selenium-http-4.1.2.jar;C:\Users\RICO\.m2\repository\net\jodah\failsafe\2.4.4\failsafe-2.4.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\RICO\AppData\Local\Temp\surefire8603921784941205477\surefirebooter15476275419079202482.jar C:\Users\RICO\AppData\Local\Temp\surefire8603921784941205477 2022-03-27T22-14-39_251-jvmRun1 surefire1363480932810329862tmp surefire_05448740687079682028tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\RICO\IdeaProjects\18restful-api\target\test-classes;C:\Users\RICO\IdeaProjects\18restful-api\target\18restful-api-1.0-SNAPSHOT.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-core\3.2.1\serenity-core-3.2.1.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-model\3.2.1\serenity-model-3.2.1.jar;C:\Users\RICO\.m2\repository\org\apache\commons\commons-text\1.9\commons-text-1.9.jar;C:\Users\RICO\.m2\repository\commons-net\commons-net\3.8.0\commons-net-3.8.0.jar;C:\Users\RICO\.m2\repository\com\google\inject\guice\5.1.0\guice-5.1.0.jar;C:\Users\RICO\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\RICO\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\RICO\.m2\repository\org\jsoup\jsoup\1.14.3\jsoup-1.14.3.jar;C:\Users\RICO\.m2\repository\com\thoughtworks\xstream\xstream\1.4.19\xstream-1.4.19.jar;C:\Users\RICO\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar;C:\Users\RICO\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\RICO\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\RICO\.m2\repository\com\typesafe\config\1.4.2\config-1.4.2.jar;C:\Users\RICO\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\RICO\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\RICO\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\RICO\.m2\repository\io\github\classgraph\classgraph\4.8.138\classgraph-4.8.138.jar;C:\Users\RICO\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\RICO\.m2\repository\net\bytebuddy\byte-buddy\1.12.8\byte-buddy-1.12.8.jar;C:\Users\RICO\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.8\byte-buddy-agent-1.12.8.jar;C:\Users\RICO\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-reports\3.2.1\serenity-reports-3.2.1.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-stats\3.2.1\serenity-stats-3.2.1.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-reports-configuration\3.2.1\serenity-reports-configuration-3.2.1.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\RICO\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\RICO\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\RICO\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\RICO\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\RICO\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\RICO\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\RICO\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\RICO\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\RICO\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\RICO\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\RICO\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\RICO\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-report-resources\3.2.1\serenity-report-resources-3.2.1.jar;C:\Users\RICO\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\RICO\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar;C:\Users\RICO\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2\jackson-databind-2.13.2.jar;C:\Users\RICO\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar;C:\Users\RICO\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\RICO\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.2\selenium-java-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.2\selenium-devtools-v95-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.2\selenium-devtools-v96-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v97\4.1.2\selenium-devtools-v97-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.2\selenium-firefox-xpi-driver-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.2\selenium-opera-driver-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.2\selenium-safari-driver-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.2\selenium-api-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.2\selenium-support-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.2\selenium-chrome-driver-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.2\selenium-chromium-driver-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.2\selenium-firefox-driver-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.2\selenium-edge-driver-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.2\selenium-ie-driver-4.1.2.jar;C:\Users\RICO\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\RICO\.m2\repository\io\appium\java-client\8.0.0\java-client-8.0.0.jar;C:\Users\RICO\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\RICO\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\RICO\.m2\repository\org\aspectj\aspectjweaver\1.9.8\aspectjweaver-1.9.8.jar;C:\Users\RICO\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\RICO\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\RICO\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\RICO\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\RICO\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\RICO\.m2\repository\io\github\bonigarcia\webdrivermanager\5.1.0\webdrivermanager-5.1.0.jar;C:\Users\RICO\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\RICO\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\RICO\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\RICO\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\RICO\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\RICO\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\RICO\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\RICO\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\RICO\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\RICO\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\RICO\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\RICO\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\RICO\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\RICO\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\RICO\.m2\repository\com\paulhammant\ngwebdriver\1.1.6\ngwebdriver-1.1.6.jar;C:\Users\RICO\.m2\repository\joda-time\joda-time\2.8.2\joda-time-2.8.2.jar;C:\Users\RICO\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\RICO\.m2\repository\com\google\jimfs\jimfs\1.2\jimfs-1.2.jar;C:\Users\RICO\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\RICO\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\RICO\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\RICO\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\RICO\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\RICO\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\RICO\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\RICO\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-cucumber\3.2.1\serenity-cucumber-3.2.1.jar;C:\Users\RICO\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\RICO\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\RICO\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\RICO\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\RICO\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\RICO\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\RICO\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\RICO\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\RICO\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\RICO\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\RICO\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\RICO\.m2\repository\io\cucumber\cucumber-junit\7.2.3\cucumber-junit-7.2.3.jar;C:\Users\RICO\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-screenplay\3.2.1\serenity-screenplay-3.2.1.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\3.2.1\serenity-screenplay-webdriver-3.2.1.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-ensure\3.2.1\serenity-ensure-3.2.1.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-junit\3.2.1\serenity-junit-3.2.1.jar;C:\Users\RICO\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.6.0\kotlin-stdlib-1.6.0.jar;C:\Users\RICO\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\RICO\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.6.0\kotlin-stdlib-common-1.6.0.jar;C:\Users\RICO\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\RICO\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\RICO\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\RICO\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\RICO\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\RICO\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\RICO\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\RICO\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\RICO\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\RICO\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\RICO\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\RICO\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\RICO\.m2\repository\org\assertj\assertj-core\3.22.0\assertj-core-3.22.0.jar;C:\Users\RICO\.m2\repository\net\serenity-bdd\serenity-rest-assured\3.2.1\serenity-rest-assured-3.2.1.jar;C:\Users\RICO\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\RICO\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\RICO\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\RICO\.m2\repository\org\codehaus\groovy\groovy-json\3.0.10\groovy-json-3.0.10.jar;C:\Users\RICO\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\RICO\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\RICO\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\RICO\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\RICO\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\RICO\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\RICO\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\RICO\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\RICO\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\RICO\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\RICO\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\RICO\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\RICO\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\RICO\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\RICO\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\RICO\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\RICO\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\RICO\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\RICO\.m2\repository\org\codehaus\plexus\plexus-java\1.0.5\plexus-java-1.0.5.jar;C:\Users\RICO\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\RICO\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M9\qdox-2.0-M9.jar;C:\Users\RICO\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;C:\Users\RICO\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\RICO\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\RICO\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\RICO\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\RICO\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\RICO\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\RICO\.m2\repository\org\codehaus\groovy\groovy\3.0.10\groovy-3.0.10.jar;C:\Users\RICO\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.10\groovy-xml-3.0.10.jar;C:\Users\RICO\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.2\selenium-devtools-v85-4.1.2.jar;C:\Users\RICO\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\RICO\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\RICO\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\RICO\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\RICO\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\RICO\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\RICO\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\RICO\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\RICO\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\RICO\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.2\selenium-json-4.1.2.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.2\selenium-remote-driver-4.1.2.jar;C:\Users\RICO\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\RICO\.m2\repository\io\netty\netty-buffer\4.1.73.Final\netty-buffer-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-codec-http\4.1.73.Final\netty-codec-http-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-codec\4.1.73.Final\netty-codec-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-handler\4.1.73.Final\netty-handler-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-tcnative-classes\2.0.46.Final\netty-tcnative-classes-2.0.46.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-common\4.1.73.Final\netty-common-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.73.Final\netty-transport-classes-epoll-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.73.Final\netty-transport-classes-kqueue-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-transport-native-epoll\4.1.73.Final\netty-transport-native-epoll-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.73.Final\netty-transport-native-kqueue-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.73.Final\netty-transport-native-unix-common-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-transport\4.1.73.Final\netty-transport-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-resolver\4.1.73.Final\netty-resolver-4.1.73.Final.jar;C:\Users\RICO\.m2\repository\io\opentelemetry\opentelemetry-api\1.10.1\opentelemetry-api-1.10.1.jar;C:\Users\RICO\.m2\repository\io\opentelemetry\opentelemetry-context\1.10.1\opentelemetry-context-1.10.1.jar;C:\Users\RICO\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.10.1\opentelemetry-exporter-logging-1.10.1.jar;C:\Users\RICO\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.10.1-alpha\opentelemetry-sdk-metrics-1.10.1-alpha.jar;C:\Users\RICO\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.10.1-alpha\opentelemetry-sdk-logs-1.10.1-alpha.jar;C:\Users\RICO\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.10.1\opentelemetry-sdk-common-1.10.1.jar;C:\Users\RICO\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.10.1\opentelemetry-sdk-extension-autoconfigure-spi-1.10.1.jar;C:\Users\RICO\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.10.1-alpha\opentelemetry-sdk-extension-autoconfigure-1.10.1-alpha.jar;C:\Users\RICO\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.10.1\opentelemetry-sdk-trace-1.10.1.jar;C:\Users\RICO\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.10.1\opentelemetry-sdk-1.10.1.jar;C:\Users\RICO\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.10.1-alpha\opentelemetry-semconv-1.10.1-alpha.jar;C:\Users\RICO\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\RICO\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\RICO\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\RICO\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\RICO\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\RICO\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\RICO\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\RICO\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\RICO\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\RICO\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.2\selenium-http-4.1.2.jar;C:\Users\RICO\.m2\repository\net\jodah\failsafe\2.4.4\failsafe-2.4.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\RICO"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\RICO\IdeaProjects\18restful-api"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\RICO\AppData\Local\Temp\surefire8603921784941205477\surefirebooter15476275419079202482.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="user.name" value="Riko Sahetapi"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\RICO\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\RICO\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="C:\Users\RICO\IdeaProjects\18restful-api"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;E:\oracle\product\10.2.0\db_1\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\oracle\product\10.2.0\db_1\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Go\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-15.0.1\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;%M2_HOME%\bin;%MAVEN_HOME%\bin;C:\Users\RICO\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\RICO\AppData\Local\Programs\Python\Python310\;C:\Users\RICO\AppData\Local\Microsoft\WindowsApps;C:\Users\RICO\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\RICO\go\bin;C:\Users\RICO\AppData\Roaming\Composer\vendor\bin;C:\Users\RICO\AppData\Roaming\npm;C:\Program Files\apache-maven-3.8.5\bin;%M2_HOME%\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="POST - As admin i have be able to login and access my account" classname="Account" time="6.926">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+XML path 'userName' doesn't match.
+Expected: rikosh
+  Actual: <nullErrorCannot POST /Account/v1/Authorizedusers>
+
+]]></failure>
+    <system-out><![CDATA[22:14:42.599 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Account.feature
+22:14:42.603 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Account.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+22:14:42.871 [main] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+22:14:42.875 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@b14aad7
+22:14:42.883 [main] INFO  - Test Suite Started: Account
+22:14:42.905 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Books.feature
+22:14:42.905 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Books.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+22:14:42.912 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@6293ed37
+22:14:42.913 [main] INFO  - Test Suite Started: Books
+22:14:42.914 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Account.feature
+22:14:42.914 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Account.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+22:14:42.919 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@b14aad7
+22:14:42.920 [main] INFO  - Test Suite Started: Account
+
+Scenario: POST - As admin i have be able to login and access my account &amp#27;[90m# src/test/resources/api/Account.feature:4&amp#27;[0m
+22:14:43.030 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Account.feature
+22:14:43.030 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Account.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+22:14:43.181 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+POST - As admin i have be able to login and access my account(account;post---as-admin-i-have-be-able-to-login-and-access-my-account)
+--------------------------------------------------------------------------------
+22:14:43.747 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccountStep.setGetApiEndPoints - I set post api endpoints
+22:14:43.749 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set post api endpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set "&amp#27;[0m&amp#27;[32m&amp#27;[1mpost&amp#27;[0m&amp#27;[32m" api endpoints&amp#27;[0m                                      &amp#27;[90m# starter.stepdefinitions.AccountStep.setGetApiEndPoints(java.lang.String)&amp#27;[0m
+22:14:43.761 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccountStep.iGetHttpRequest - I send post http request
+22:14:46.879 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Post.iSendPostHttpRequest - I set post api endpoints
+22:14:46.879 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set post api endpoints
+22:14:47.818 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://demoqa.com:443
+22:14:47.838 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to demoqa.com:443
+22:14:48.529 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+22:14:48.530 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+22:14:48.530 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+22:14:48.530 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+22:14:48.531 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+22:14:48.531 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /Account/v1/Authorizedusers HTTP/1.1
+22:14:48.531 [main] DEBUG org.apache.http.wire -  >> "POST /Account/v1/Authorizedusers HTTP/1.1[\r][\n]"
+22:14:48.532 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+22:14:48.532 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+22:14:48.532 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 41[\r][\n]"
+22:14:48.532 [main] DEBUG org.apache.http.wire -  >> "Host: demoqa.com[\r][\n]"
+22:14:48.532 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+22:14:48.532 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)[\r][\n]"
+22:14:48.533 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:14:48.533 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+22:14:48.533 [main] DEBUG org.apache.http.headers - >> POST /Account/v1/Authorizedusers HTTP/1.1
+22:14:48.533 [main] DEBUG org.apache.http.headers - >> Accept: */*
+22:14:48.533 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+22:14:48.533 [main] DEBUG org.apache.http.headers - >> Content-Length: 41
+22:14:48.533 [main] DEBUG org.apache.http.headers - >> Host: demoqa.com
+22:14:48.533 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+22:14:48.533 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+22:14:48.533 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+22:14:48.533 [main] DEBUG org.apache.http.wire -  >> "{"password":"string","userName":"string"}"
+22:14:48.746 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 404 Not Found[\r][\n]"
+22:14:48.750 [main] DEBUG org.apache.http.wire -  << "Server: nginx/1.17.10 (Ubuntu)[\r][\n]"
+22:14:48.751 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 27 Mar 2022 15:14:47 GMT[\r][\n]"
+22:14:48.751 [main] DEBUG org.apache.http.wire -  << "Content-Type: text/html; charset=utf-8[\r][\n]"
+22:14:48.751 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+22:14:48.752 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+22:14:48.752 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+22:14:48.752 [main] DEBUG org.apache.http.wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+22:14:48.752 [main] DEBUG org.apache.http.wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+22:14:48.753 [main] DEBUG org.apache.http.wire -  << "Content-Encoding: gzip[\r][\n]"
+22:14:48.753 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+22:14:48.755 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 404 Not Found
+22:14:48.755 [main] DEBUG org.apache.http.headers - << HTTP/1.1 404 Not Found
+22:14:48.755 [main] DEBUG org.apache.http.headers - << Server: nginx/1.17.10 (Ubuntu)
+22:14:48.756 [main] DEBUG org.apache.http.headers - << Date: Sun, 27 Mar 2022 15:14:47 GMT
+22:14:48.756 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=utf-8
+22:14:48.756 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+22:14:48.756 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+22:14:48.756 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+22:14:48.756 [main] DEBUG org.apache.http.headers - << Content-Security-Policy: default-src 'none'
+22:14:48.756 [main] DEBUG org.apache.http.headers - << X-Content-Type-Options: nosniff
+22:14:48.757 [main] DEBUG org.apache.http.headers - << Content-Encoding: gzip
+22:14:48.762 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+22:14:48.776 [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: text/html; charset=utf-8
+22:14:48.777 [main] DEBUG org.apache.http.wire -  << "95[\r][\n]"
+22:14:48.777 [main] DEBUG org.apache.http.wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x4][0x3]-N=[0xb][0x83]0[0x10][0xdd][0xfd][0x15][0xa9]{9[0xba]u[0x88][0x1][0xb1][0xce][\n]"
+22:14:48.777 [main] DEBUG org.apache.http.wire -  << "u[0xe9][0x98]&[0xd7]F[0x88][0x89]\.[0x85][0xf6][0xd7][0xd7][0xa0][0xd3][0xe3]}[0xf2][0xe4][0xe9]6t[0xd3]c[0xec][0x85][0xe3][0xc5][0xab]J[0x16][0x10]^[0x87]wSc[0xa8][0x8b][0x80][0xda]n[0xb0] ka[0x9c][0xa6][0x84][0xdc][0xd4][0x99]_[0xe7]kqyf[0x8f][0xaa]'[0x8a]$a'[0x95][0x84][0xa3][0xf3][0x8c][0xf6][0xbb]eVB[0xd5][0xe9][0x10]"[0x8b]q[0xb8]O[0x2]Zcb[0xe][0xc][0x9f][0xb][0xb4][0x99]][0xa4][0xf9][0x87]6'[0xa4]$[0xa1][0x84][0xb7][0x85][0xa3][\n]"
+22:14:48.777 [main] DEBUG org.apache.http.wire -  << "[0xfb][0xab]?u.[\n]"
+22:14:48.777 [main] DEBUG org.apache.http.wire -  << "[0xb8][0xa6][0x0][0x0][0x0]"
+22:14:48.777 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+22:14:48.777 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+22:14:48.777 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+22:14:48.777 [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+22:14:48.811 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@68d8ae27
+22:14:48.811 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+22:14:48.952 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send post http request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send "&amp#27;[0m&amp#27;[32m&amp#27;[1mpost&amp#27;[0m&amp#27;[32m" http requests&amp#27;[0m                                      &amp#27;[90m# starter.stepdefinitions.AccountStep.iGetHttpRequest(java.lang.String)&amp#27;[0m
+22:14:48.957 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccountStep.receiveValidDataForDetailUser - I receive valid data for login user
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI receive valid data for "&amp#27;[0m&amp#27;[31m&amp#27;[1mlogin&amp#27;[0m&amp#27;[31m" user&amp#27;[0m                            &amp#27;[90m# starter.stepdefinitions.AccountStep.receiveValidDataForDetailUser(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
+XML path 'userName' doesn't match.
+Expected: rikosh
+  Actual: <nullErrorCannot POST /Account/v1/Authorizedusers>
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:262)
+	at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:212)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:109)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at starter.account.Post.lambda$receiveValidDataForLoginUser$0(Post.java:29)
+	at net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)
+	at starter.account.Post.receiveValidDataForLoginUser(Post.java:29)
+	at starter.account.Post$ByteBuddy$HkXbRoWn.receiveValidDataForLoginUser$accessor$KWNwfRor(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:503)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:483)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:457)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:209)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:196)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:84)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at starter.account.Post$ByteBuddy$HkXbRoWn.receiveValidDataForLoginUser(Unknown Source)
+	at starter.stepdefinitions.AccountStep.receiveValidDataForDetailUser(AccountStep.java:42)
+	at âœ½.I receive valid data for "login" user(file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Account.feature:7)
+&amp#27;[0m
+22:14:49.746 [main] ERROR  - 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+POST - As admin i have be able to login and access my account
+-----------------------------------------------------------------------
+22:14:49.748 [main] DEBUG  - RELATED ISSUES: 
+22:14:49.838 [main] ERROR  -     Test failed at step: I receive valid data for login user
+22:14:49.838 [main] ERROR  -     1 expectation failed.XML path 'userName' doesn't match.Expected: rikosh  Actual: <nullErrorCannot POST /Account/v1/Authorizedusers>
+]]></system-out>
+  </testcase>
+  <testcase name="GET - As admin i have be able to get detail user by Id" classname="Account" time="1.051">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+XML path 'userName' doesn't match.
+Expected: rikosh
+  Actual: <nullnullnullnullasync function detectAdBlock(){let e=!1;try{await fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")).catch(a=>e=!0)}catch(a){e=!1}finally{!0===e&&dataLayer.push({event:"Ad Blocker"}),console.log("AdBlock Enabled: ${adBlockEnabled}")}}detectAdBlock()nullToolsQAnullvar gptadslots=[],googletag=googletag||{cmd:[]}googletag.cmd.push((function(){var e=googletag.sizeMapping().addSize([0,0],[[320,50],[300,75],[300,50]]).addSize([730,200],[[728,90],[468,60]]).addSize([975,200],[[970,90],[728,90],[960,90],[750,100],[950,90],[468,60]]).build();gptadslots.push(googletag.defineSlot("/21849154601,22343295815/Ad.Plus-Anchor",[[320,100]],"adplus-anchor").setTargeting("site",["demoqa.com"]).defineSizeMapping(e).addService(googletag.pubads())),googletag.enableServices()}))nullgoogletag.cmd.push((function(){googletag.display("adplus-anchor")}))!function(e,t,a,n,g){e[n]=e[n]||[],e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var m=t.getElementsByTagName(a)[0],r=t.createElement(a);r.async=!0,r.src="https://www.googletagmanager.com/gtm.js?id=GTM-MX8DD4S",m.parentNode.insertBefore(r,m)}(window,document,"script","dataLayer")nullnullnullnullnullnull>
+
+]]></failure>
+    <system-out><![CDATA[
+Scenario: GET - As admin i have be able to get detail user by Id &amp#27;[90m# src/test/resources/api/Account.feature:9&amp#27;[0m
+22:14:49.868 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Account.feature
+22:14:49.868 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Account.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+22:14:49.874 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+GET - As admin i have be able to get detail user by Id(account;get---as-admin-i-have-be-able-to-get-detail-user-by-id)
+--------------------------------------------------------------------------------
+22:14:49.904 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccountStep.setGetApiEndPoints - I set "get" api endpoints
+22:14:49.905 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set "get" api endpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set "&amp#27;[0m&amp#27;[32m&amp#27;[1mget&amp#27;[0m&amp#27;[32m" api endpoints&amp#27;[0m                                &amp#27;[90m# starter.stepdefinitions.AccountStep.setGetApiEndPoints(java.lang.String)&amp#27;[0m
+22:14:49.913 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccountStep.iGetHttpRequest - I send "get" http request
+22:14:49.917 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Get.iGetHttpRequest - I set "get" api endpoints
+22:14:49.918 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set "get" api endpoints
+22:14:49.963 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://demoqa.com:443
+22:14:49.963 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to demoqa.com:443
+22:14:50.548 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+22:14:50.549 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+22:14:50.549 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+22:14:50.549 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+22:14:50.549 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+22:14:50.549 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /Account/v1/User/63ed5293-e3eb-44cc-93b6-cd5ccf5f8565users/2 HTTP/1.1
+22:14:50.549 [main] DEBUG org.apache.http.wire -  >> "GET /Account/v1/User/63ed5293-e3eb-44cc-93b6-cd5ccf5f8565users/2 HTTP/1.1[\r][\n]"
+22:14:50.549 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+22:14:50.549 [main] DEBUG org.apache.http.wire -  >> "Host: demoqa.com[\r][\n]"
+22:14:50.550 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+22:14:50.550 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)[\r][\n]"
+22:14:50.550 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:14:50.550 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+22:14:50.550 [main] DEBUG org.apache.http.headers - >> GET /Account/v1/User/63ed5293-e3eb-44cc-93b6-cd5ccf5f8565users/2 HTTP/1.1
+22:14:50.550 [main] DEBUG org.apache.http.headers - >> Accept: */*
+22:14:50.550 [main] DEBUG org.apache.http.headers - >> Host: demoqa.com
+22:14:50.550 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+22:14:50.550 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+22:14:50.551 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+22:14:50.804 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+22:14:50.804 [main] DEBUG org.apache.http.wire -  << "Server: nginx/1.17.10 (Ubuntu)[\r][\n]"
+22:14:50.804 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 27 Mar 2022 15:14:50 GMT[\r][\n]"
+22:14:50.805 [main] DEBUG org.apache.http.wire -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+22:14:50.805 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+22:14:50.805 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+22:14:50.805 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+22:14:50.805 [main] DEBUG org.apache.http.wire -  << "Cache-Control: public, max-age=0[\r][\n]"
+22:14:50.805 [main] DEBUG org.apache.http.wire -  << "Last-Modified: Sun, 20 Mar 2022 11:24:45 GMT[\r][\n]"
+22:14:50.805 [main] DEBUG org.apache.http.wire -  << "ETag: W/"c43-17fa7128ccd"[\r][\n]"
+22:14:50.805 [main] DEBUG org.apache.http.wire -  << "Content-Encoding: gzip[\r][\n]"
+22:14:50.805 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+22:14:50.806 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+22:14:50.806 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+22:14:50.806 [main] DEBUG org.apache.http.headers - << Server: nginx/1.17.10 (Ubuntu)
+22:14:50.806 [main] DEBUG org.apache.http.headers - << Date: Sun, 27 Mar 2022 15:14:50 GMT
+22:14:50.806 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
+22:14:50.806 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+22:14:50.806 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+22:14:50.806 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+22:14:50.806 [main] DEBUG org.apache.http.headers - << Cache-Control: public, max-age=0
+22:14:50.806 [main] DEBUG org.apache.http.headers - << Last-Modified: Sun, 20 Mar 2022 11:24:45 GMT
+22:14:50.806 [main] DEBUG org.apache.http.headers - << ETag: W/"c43-17fa7128ccd"
+22:14:50.806 [main] DEBUG org.apache.http.headers - << Content-Encoding: gzip
+22:14:50.806 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+22:14:50.807 [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: text/html; charset=UTF-8
+22:14:50.807 [main] DEBUG org.apache.http.wire -  << "645[\r][\n]"
+22:14:50.808 [main] DEBUG org.apache.http.wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x4][0x3][0x9d]Wms[0xdb]6[0x12][0xfe]+4[0xe6][0x9a]!'[0x14]II[0x94][0xac]7*c7[0x89][0xdb][0xe6][0xec]$[0x8d][0xaf][0x97][0xab][0xc7][0x1f] [0x2]"a[0x91][0x0][0xb][0x80][0x92][0x18]G[0xff][0xbd][0xb][0x92]z[0xb1]s[0xcd]u[0xce]3[0xa6]@`[0x5],v[0x9f][0xe7][0xd9][0xd5][0xec][0x8c][0x88]XW[0x5][0xb5]R[0x9d]g[0xf3]Y[0xfb][0xa4][0x98][0xcc]g9[0xd5][0xd8][0xe2]8[0xa7][0x11]Z3[0xba])[0x84][0xd4][0xc8][0x8a][0x5][0xd7][0x94][0xeb][0x8]m[0x18][0xd1]iD[0xe8][0x9a][0xc5][0xb4]S[0xbf][0xb8][0x8c]3[0xcd]p[0xd6]Q1[0xce]h[0xd4]E[0xf3][0x99][0x8a]%+[0xb4][0xa5]d[0x1c][0xa1]T[0xeb]BM|?[0x16][0x84]z[0xf][0x94]TV^,r[0xbf][0x19]v[0xfa][0xde][0xc0][0xb][0xbc][0x9c]q[0xef]A![0x8b][0xc1])[0x89]d[0xba][0x8a][0x90]Jqo0[0xec]lo[0xbe][0xdc][0xf4]p[0x98][0xe9][0xd5]e[0x18]^[0xc7][0xfe]/_[0xfa][0xc5]m[0xc8][0xfe][0xd5][0x8d]s[0xfa]k[0xf0]v[0xf5]Y[0x85][0x85],[0xfd]_[0xb6][0xf8]c[0x4]nJ[0xa1][0x94][0x90],a<B[0x98][0xb]^[0xe5][0xa2]T[0xe0][0x91][0xdf][0xb8][0xf4][0xf7]\+[0x99][0xdf][0xf5][0xba]=/[0xd8];Y[0xb2][0xef]xH[0xaf][0xde][0xc][0x17]Y)W[0x3][0xf5][0xd3][0xc3]K[0x99][0xaf][0x96][0xea][0xea]?[0xf4]][0xf5][0xfb][0xb6][0x1d].[0xae]^[0xfe][0x9e][0xbd][0xad].[0xce][0xdf]qu[0xfe][0xe6]oy[0x98]1[0xbe][0xb2]RI[0x97][0xc7][0xd8])[0x8d][0xe3]U[0x81]u[0xea]-[0x84][0xd0]JK\[0xc4][0x84][0xd7]a<L[0xf8][0xa1][0x17]z]?V[0xca]?[0xcc][0xd5]^[0xc3][0xc][0xb2]$[0xcd] [0xa4][0xba][0xca][0xa8]J)[0x85][0x84]>[0x8d]t[0x14]v~[[0x9]1[0xda][0x86]?^[0xa9][0xf7][0xfd][0x97]?[0xa5][0xdb][0xf5][0xe8][0xd6][0xff]8[0xf8][0x80]?[0xeb][0xd5];][0xe][0xcb]dp[0xfb][0x9e][0xde][0xfc]6L.[0xd9][[0xfa][0xef][0xf]Woo[0xc6][0xd7]e[0xfa]~[0xd9][0xeb][0x1c][0xff][0xbc]|H[0xbf][0x13][0xfd][0x16][0xf]XU<[0x9e][0xd7]OkY[0xf2]X3[0xc1]-B5[0x8d][0xf5][0x5][0xb9][0xcc]D[0xbc][0xb2][0x9d][0xc7][0x8c]j[0x8b]Fg[0xdd][0xa9][0x96][0xd5]#[0xde]`[0xa6][0xad]%[0xd5]qjs[0xba][0xb1]~[0xa5][0x0] [0xa5][0xed][0x3][0xaa][\n]"
+22:14:50.808 [main] DEBUG org.apache.http.wire -  << "[0x9c][0x0]h{^"D[0x2]w[0xab]8a16[0xfb][0xd6][0xc1]iV[0xfd][0x7][0xe5]c[0xa2][0x16]Ucd[0x80][0xe6]8[0x1e][0x98][0xc1][0xa6]8[0x9a][0xc3]a[0x81][0xb3]k_[0x9d]Gs[0xf6]n[0xc9]8[0xce][0xb2][0xea][0xf1],[0x88][0xa2][0x88][0xbe]xA[0xb0][0xc6][0xff][0xc4][0x15][0x95]^Q[0xaa][0xd4]~[0xa4]k [0xc3][0x4]][0x10][0xab]v[0x9b]J[0xb4]s\[0xe0][0x88][0x12][0x19][0xf5]2[0x91][0xd8][0xb0]T[0xaf]Xo8^d[0x94]L[0xac]<[0xe2]f[0xaa][0x9d][0xd9]!g[0xb7]{v[0xf9]o`[0xda][0xc4][0xea][0x9][0x8f][0xfe][0xbf][0x1b][0xbf][0x8a]3f[0xf8][0x1b][0xe3]NQ.:[0x83][0xd1]h[0xdc][0x1b][0x8f][0xc2]Aw[0x18][0x8c][0xbb][0xe1][0xf0];[0xb9];0G3[0x9d][0xd1][0xf9][0xad][0x10][0x99][0xfa]x1[0xf3][0x9b][0xd7][0x19]ak[0x8b][0x91][0x8]-[0xd9][0x96][0x92][0x5][0xe6][0xc8][0xaa]Q[0xd6][\n]"
+22:14:50.808 [main] DEBUG org.apache.http.wire -  << "[0xc5][0xa4][0x1b][0x4]?Ls,[0x81][0x90][0x13]\j1[0xd5]t[0xab];8c[0x9][0x9f][0xc4][0xe0][0x10][0x95][0xd3]e&[0xb0][0x9e][0x0]W[0xe9]T[0xac][0xa9][0x84][0xd7][0xcd]$e[0x84]P>%L[0x15][0x19][0xae]&[0x80][0x1f][0x91]e[0xd3]B(P[0x1a][0xc1]'[0xf5]a[0xd3][0x85][0xd0]Z[0xe4][0x93]`[0xfa][0xa5][0xc3]8[0xa1][0xdb][0xc9][0xb8][0xf9][0x3][0xba][0x1b][0xaf]Z?[0xbe]=p[0xbf][0xeb][0xc2] [0xe][0x9c][0xdb]6:6[0x19][0x9f][0x7][0xc5]v[0x9a]R[0x96][0xa4][0xba]q[0xf6][0xb9]?'[0x17]9[0xaa]\[0x9d]#P[0x1b][0x3]n[0xb8][0xfd][0xa9][0xe6]m6[0x9b][0x16][0x99][0x1a]'[0x8a]J#[0x9a][0xaa]F&[0xbc][0x1b]X&[0x85]6p[0xfc]F[0x9f][0xe6]k,-X[0x4][0xd8]f@[0xf8][0xe8][0xee][0xde]m[0xc0][0xb][0xdf][0x8b][0xe][0xa3][0xaf]_[0x1f][0xe3][0x9c]L[0xee][0xee]w[0xcf][0x81]3?[0xd8]x`[0xd1][0x80][0xd6][0xde]S[0xe]Hf[0xb6][0xa7][0xc7][0x8d]<[0xc5][0xbe][0xd0]k\[0x14][0x8c]'[0xb6][0xe3]aB>[0xc1][0x84]}[0x17][0xb8][0xc1][0xbd]{w[0xd7][0xef][0x5][0xee][0xc0][0x8c][0xfa]A[0xe0][0x9e][0xf][0xda][0x1][0xcc][0xdc][0x9f][0xd8][0x9e][0xf7][0x3][0xb7][0x17][0xd4][0xf6][0xe7][0xbd][0x91];6[0xa3]p8r[0x87]O[0xcd][0xc6][0xe7][0x83][0xbd][0x19][0xc4][0xbb]1;[0xd8][0x8f][0x87][0xfb][0x99]A[0xe0][0x2]t`[0x8b]1[0x8c][0x9e][0xed][0xb5](YFlgz[0x8c]Os[0xc1][0xe3][0x9d][0x9][0x5][0x2][0xd3]O[0x10]:[0x1b][0xf9][0xbd][0xee]([0x1c]w[0x7][0xe1]0[0xe8][0xba][0xbd]^?[0xec][0xf7][0xc6][0x83]Qw[0xe0]_[0x10][0xef]CV[0xaa][0xce][0x5][0x8f]S!Q{Os[0xea][0xbd][0x8b]0)[0xcc][0x1a]n[0xd6][0x1c]OQ}[0xb]([0xa6][0xda]D[0x8][0x1][0xc])|[0x1][0x11][0x9a][0x8b]?[0xb0]I([0x82]P[0xb4][0xa7][0x9e][0x84][0x92]6[0xf1]i[0x12]o[0x1f][0xfd][0x3][\n]"
+22:14:50.808 [main] DEBUG org.apache.http.wire -  << "Bfm[0xc7]q[0x8e]i[0xf5]h[0xad][0x14][0x9f]Z[0x94][0xd8][0xce][0xce]q[0x8e]i[0x5]@[0xcf]g[0xb8]fZ[0x9c][0x9]E;G[0xbe][0x9][0xe][0xdc][0x8e]W[0x11][0x82][0x92]^[0xe6][0xc0])[0xf][0xdc]|[0x93]Q3[0xbc][0xac]~&[0xf6][0xb][0xc][0xc4][0x99][0xee][0xbf][0xd0][0xbc][0xc1][0x8d]L1[0xf0]Z.X[0x91][0xd5][0xcc][0x1b][0x1a]6[0xa3][0xe9][0x81][0xc9]q)[0xa1][0xa6]N[\n]"
+22:14:50.809 [main] DEBUG org.apache.http.wire -  << "aj[0x86][0x4][0xb0][0xb2]<y[0x8a]s[0xc][0x10][0x83]p[0x81][0xca]6Q#[0xc0]c[0xcd][0x14][0xc4][0xca]S[0xeb][0x4]Y8[0x83][0xce][0xa1]]<[0xae]![0xab][0xd6][0x90][0x8][0xb4][0xb2][0xce][0x84]uq[0xba][0xd6][0xd2][0xb7][0xde][0x9][0x1a][0x8b]V3r[0x10][0x86][0x8c]"[0x1f][0x18][0x83][0xe1][0xbf][0xe][0xcb]^[0x82][0xf6][0xa7]79[0xdb][0x97][0xfa][0xff]E[0x85]cV[0xda]X[0xd8]{O[0xf7][0xc9][0x92][0x88][0xe6][0xc8][0xd3]g[0xdb]Y[0x9c][0x1d][0xe8]E][0xed]b[0x97][0xbb][0x9][0x14][0x93];~[0x1f][0x99][0xc7][0xd7][0xaf]@a3h[0xb][0x8]Jt[0xe])[0xc0][0xd0][M[0xea][0xca][0xf6][0x1a]k@[0xb]d[0xee][0x96][0xe5][0xd4]v[0xdc][0xb6][0xc2][0x18]3[0x10][0x88][0x9d]35[0x94][0xcd][0xa3][0xd3][0xe4][0xaa][0xcb][0xea][0x16]'7[0xd0][0xa9][0xd9][0xd8][0xb9][0x3][0xb2]HX[0x8e]%[0x85][0x9d][0xda][0xf4][0xc3][0xfc]Tz[0x8d]@[0x9d][0x5][0xae][0xf4][0xfe]Z[0x9d]r[0xcc][0xa1][0x94][0xca]Z[0x9c][0x9a]C_[0x81][0xac]_[0xdd]^w[0xae]?[0x8f]^[0xbf][0xe]?!7[0xf7][\n]"
+22:14:50.809 [main] DEBUG org.apache.http.wire -  << ",[0x1]T7[0xa6][0x93]c[0x1c][0xf4]L_[0xd2][0xa5][0x90][0xd4][0x96]n[0xee][0xec][0xec][\r][0xa8][0xb0][0xd8][0xb8]{[0x18][0xba][0xa8][0x89][0xc]r[0xd1][0xa1]|[0xa2][0x13]H[0xd7]}N[0xd3][0x97][0x0][0xff]t\j[0x8b]A[0x9]Em[0xef][0xe3]/1[0xc8]%[0x14][0xf2][0x82]'[0x80][0xb9][0x93][0xae][0xc8][0xcf]1[0xb4][0x8b][0xff][0xb5][0xad][0x1]H[0xa4]u[0x13][0xbb][0x10][0xa4][0x9a][0xcf][0xb8]h[0x93]3cK[0x9]qz[0x8a][0xda]'[0xea]|z[0xae]<[0xd3][0x10]?[0xf][0x80][0xd5][0x94][0x86][0x8][0x5][0xc8]j[0xda]`3jq[0xba]/*u[0x1d][[0x3][0xf6][0x17],c[0xba]j+[0x99]Q[0xf8][0xc6][0x5][0x18][0x1c][0xbd]: [0xb7]([0x8c]E[0x8d][0xe6][0xc6][0xe3][0xbf][0xf2][0xb4][0xce][0x8f][0xa4]1.[0xa0]{[0xc1]>.[0x18][0xc0][0xe3][0x95][0xe0]PCI[0xd4]|[0xfc][0x8][0x9d][0xcb][0x2][0xfa][0xc5][0x17][0x90]+BeD[0xb7][0x5][0xe8][0x3][0xd3]@CS[0xa2][0xa0][0xe1]Z[0xc2],h[0x17]|[0x98]S[0xf7]!:=[0xd8]_[0x94][0x1c]x[0xf6][0xac]6Aci[0xa2][0xea][0xd7][0xbf][0x16][0xfe][0x4][0x80]L[0xec][0xb4]C[0xc][0x0][0x0]"
+22:14:50.809 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+22:14:50.809 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+22:14:50.809 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+22:14:50.809 [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+22:14:50.812 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4fbc516f
+22:14:50.812 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+22:14:50.821 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send "get" http request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send "&amp#27;[0m&amp#27;[32m&amp#27;[1mget&amp#27;[0m&amp#27;[32m" http requests&amp#27;[0m                                &amp#27;[90m# starter.stepdefinitions.AccountStep.iGetHttpRequest(java.lang.String)&amp#27;[0m
+22:14:50.828 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccountStep.receiveValidDataForDetailUser - I receive valid data for login user
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI receive valid data for "&amp#27;[0m&amp#27;[31m&amp#27;[1mdetail&amp#27;[0m&amp#27;[31m" user&amp#27;[0m                    &amp#27;[90m# starter.stepdefinitions.AccountStep.receiveValidDataForDetailUser(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
+XML path 'userName' doesn't match.
+Expected: rikosh
+  Actual: <nullnullnullnullasync function detectAdBlock(){let e=!1;try{await fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")).catch(a=>e=!0)}catch(a){e=!1}finally{!0===e&&dataLayer.push({event:"Ad Blocker"}),console.log("AdBlock Enabled: ${adBlockEnabled}")}}detectAdBlock()nullToolsQAnullvar gptadslots=[],googletag=googletag||{cmd:[]}googletag.cmd.push((function(){var e=googletag.sizeMapping().addSize([0,0],[[320,50],[300,75],[300,50]]).addSize([730,200],[[728,90],[468,60]]).addSize([975,200],[[970,90],[728,90],[960,90],[750,100],[950,90],[468,60]]).build();gptadslots.push(googletag.defineSlot("/21849154601,22343295815/Ad.Plus-Anchor",[[320,100]],"adplus-anchor").setTargeting("site",["demoqa.com"]).defineSizeMapping(e).addService(googletag.pubads())),googletag.enableServices()}))nullgoogletag.cmd.push((function(){googletag.display("adplus-anchor")}))!function(e,t,a,n,g){e[n]=e[n]||[],e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var m=t.getElementsByTagName(a)[0],r=t.createElement(a);r.async=!0,r.src="https://www.googletagmanager.com/gtm.js?id=GTM-MX8DD4S",m.parentNode.insertBefore(r,m)}(window,document,"script","dataLayer")nullnullnullnullnullnull>
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:262)
+	at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:109)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at starter.account.Post.lambda$receiveValidDataForLoginUser$0(Post.java:29)
+	at net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)
+	at starter.account.Post.receiveValidDataForLoginUser(Post.java:29)
+	at starter.account.Post$ByteBuddy$HkXbRoWn.receiveValidDataForLoginUser$accessor$KWNwfRor(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:503)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:483)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:457)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:209)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:196)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:84)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at starter.account.Post$ByteBuddy$HkXbRoWn.receiveValidDataForLoginUser(Unknown Source)
+	at starter.stepdefinitions.AccountStep.receiveValidDataForDetailUser(AccountStep.java:44)
+	at âœ½.I receive valid data for "detail" user(file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Account.feature:12)
+&amp#27;[0m
+22:14:50.902 [main] ERROR  - 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+GET - As admin i have be able to get detail user by Id
+-----------------------------------------------------------------------
+22:14:50.902 [main] DEBUG  - RELATED ISSUES: 
+22:14:50.903 [main] ERROR  -     Test failed at step: I receive valid data for login user
+22:14:50.903 [main] ERROR  -     1 expectation failed.XML path 'userName' doesn't match.Expected: rikosh  Actual: <nullnullnullnullasync function detectAdBlock(){let e=!1;try{await fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")).catch(a=>e=!0)}catch(a){e=!1}finally{!0===e&&dataLayer.push({event:"Ad Blocker"}),console.log("AdBlock Enabled: ${adBlockEnabled}")}}detectAdBlock()nullToolsQAnullvar gptadslots=[],googletag=googletag||{cmd:[]}googletag.cmd.push((function(){var e=googletag.sizeMapping().addSize([0,0],[[320,50],[300,75],[300,50]]).addSize([730,200],[[728,90],[468,60]]).addSize([975,200],[[970,90],[728,90],[960,90],[750,100],[950,90],[468,60]]).build();gptadslots.push(googletag.defineSlot("/21849154601,22343295815/Ad.Plus-Anchor",[[320,100]],"adplus-anchor").setTargeting("site",["demoqa.com"]).defineSizeMapping(e).addService(googletag.pubads())),googletag.enableServices()}))nullgoogletag.cmd.push((function(){googletag.display("adplus-anchor")}))!function(e,t,a,n,g){e[n]=e[n]||[],e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var m=t.getElementsByTagName(a)[0],r=t.createElement(a);r.async=!0,r.src="https://www.googletagmanager.com/gtm.js?id=GTM-MX8DD4S",m.parentNode.insertBefore(r,m)}(window,document,"script","dataLayer")nullnullnullnullnullnull>
+]]></system-out>
+  </testcase>
+  <testcase name="DELETE - As admin i have be able to delete user" classname="Account" time="1.053">
+    <system-out><![CDATA[
+Scenario: DELETE - As admin i have be able to delete user &amp#27;[90m# src/test/resources/api/Account.feature:14&amp#27;[0m
+22:14:50.940 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Account.feature
+22:14:50.940 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Account.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+22:14:50.952 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+DELETE - As admin i have be able to delete user(account;delete---as-admin-i-have-be-able-to-delete-user)
+--------------------------------------------------------------------------------
+22:14:50.991 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccountStep.setGetApiEndPoints - I set DELETE api endpoints
+22:14:50.992 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set DELETE api endpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set "&amp#27;[0m&amp#27;[32m&amp#27;[1mdelete&amp#27;[0m&amp#27;[32m" api endpoints&amp#27;[0m                      &amp#27;[90m# starter.stepdefinitions.AccountStep.setGetApiEndPoints(java.lang.String)&amp#27;[0m
+22:14:51.073 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: BookStep.sendGetHttpRequest - I send DELETE http request
+22:14:51.076 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Delete.sendDeleteHttpRequest - I set DELETE api endpoints
+22:14:51.077 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set DELETE api endpoints
+22:14:51.104 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://demoqa.com:443
+22:14:51.104 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to demoqa.com:443
+22:14:51.619 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+22:14:51.619 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+22:14:51.619 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+22:14:51.619 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+22:14:51.619 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+22:14:51.619 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: DELETE /swagger/ HTTP/1.1
+22:14:51.620 [main] DEBUG org.apache.http.wire -  >> "DELETE /swagger/ HTTP/1.1[\r][\n]"
+22:14:51.620 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+22:14:51.620 [main] DEBUG org.apache.http.wire -  >> "Host: demoqa.com[\r][\n]"
+22:14:51.620 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+22:14:51.620 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)[\r][\n]"
+22:14:51.620 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:14:51.620 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+22:14:51.620 [main] DEBUG org.apache.http.headers - >> DELETE /swagger/ HTTP/1.1
+22:14:51.621 [main] DEBUG org.apache.http.headers - >> Accept: */*
+22:14:51.621 [main] DEBUG org.apache.http.headers - >> Host: demoqa.com
+22:14:51.621 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+22:14:51.621 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+22:14:51.621 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+22:14:51.920 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+22:14:51.921 [main] DEBUG org.apache.http.wire -  << "Server: nginx/1.17.10 (Ubuntu)[\r][\n]"
+22:14:51.921 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 27 Mar 2022 15:14:51 GMT[\r][\n]"
+22:14:51.921 [main] DEBUG org.apache.http.wire -  << "Content-Type: text/html; charset=utf-8[\r][\n]"
+22:14:51.922 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+22:14:51.923 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+22:14:51.923 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+22:14:51.923 [main] DEBUG org.apache.http.wire -  << "ETag: W/"c20-YaHADSLwvE3kEdwr5u3Bfu2fhF8"[\r][\n]"
+22:14:51.923 [main] DEBUG org.apache.http.wire -  << "Content-Encoding: gzip[\r][\n]"
+22:14:51.923 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+22:14:51.923 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+22:14:51.924 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+22:14:51.924 [main] DEBUG org.apache.http.headers - << Server: nginx/1.17.10 (Ubuntu)
+22:14:51.924 [main] DEBUG org.apache.http.headers - << Date: Sun, 27 Mar 2022 15:14:51 GMT
+22:14:51.924 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=utf-8
+22:14:51.924 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+22:14:51.924 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+22:14:51.924 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+22:14:51.924 [main] DEBUG org.apache.http.headers - << ETag: W/"c20-YaHADSLwvE3kEdwr5u3Bfu2fhF8"
+22:14:51.924 [main] DEBUG org.apache.http.headers - << Content-Encoding: gzip
+22:14:51.925 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+22:14:51.926 [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: text/html; charset=utf-8
+22:14:51.926 [main] DEBUG org.apache.http.wire -  << "510[\r][\n]"
+22:14:51.926 [main] DEBUG org.apache.http.wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x4][0x3][0xdd]VK[0x8f][0xdb]6[0x10][0xbe][0xfb]WL[0xd4][QR"[0xf5]vl[0x1f][0xba]m[0xe1][0x2][0xbb]h[0x81]n[0x16][0xe8]Q[0x96]hK[0x9]-[0x9][0x92][0xfc][0xd8][\r][0xf2][0xdf][0xfb][0x91][0xb2][0xb3][0x9b]TH[0xd3][0xa2][0xbd][0x14][0xde][0x95]([0xce][0xcc][0xc7]ysf[0x8b]W[0x8c][0xd1][0xfa][0xfe][0xee][0x96][0xb6]MG[0xfd][0x90][\r]UNE[0xd5][0xf]][0xb5]9[0xc]US[0xd3][0xe6]P[0x17]Z[0xe1]U[0xe9][0x82][0x18][[0xcd][0x16][0xaf]~[0xf8][0xe5][0xe6][0xfe][0xf7]_[0xa4]r[0xd8]k|[0x9b][0x17][0xe9][0xac][0xde]-[0x1d]U;fCe[0xc5]jF[0xb4][0xd8][0xab]![0xa3][0xbc][0xcc][0xba]^[\r]K[0xe7][0xcd][0xfd]O,[0x1][0x1d][0x84][0xa1][0x1a][0xb4]Z[0xfd]v[0xca]v;[0xd5][0xd1][0x9b][0x9f][0x17][0xee][0xb8]ch[0xba][0xaa][0xdf]Q[0xa7][0xf4][0xd2][0xe9][0x87]G[0xad][0xfa]R[0xa9][0xc1][0xa1][0xe1][0xb1]UKgP[0xe7][0xc1][0xcd][0xfb][0xde][0xa1][0xb2]S[0xdb][0xa5][0xc3][0xdd]~[0xc4]`[0x87][0x8a][0xdb]}[0xb][0xff][0xc]Q[0xe5]M}[0x15][0xae][0xf6][0xd9]N[0xb9]m[0xbd]{[0x96][0xde]fG[0xc3][0xc1]|y[0xf6]%[0xb7][0xa4][0xbe]zR[0xfd][0xd2][0xb1];[0xe][0xb9][0xab][0x17][0xfa]|%[0x98][0x88][0xce]"[0xfa][0x4][0xcc][0xee][0x18]0[0xd8]gL[0xb4][0x86][0x99][0xf][0xb2]>[0xb4][0x8b][0xf7][0xf6]I[0xb4]i[0xce][0xc]:T[0xf5]n[0x8e]uW[0xa8][0x8e]a[0xeb][0xf5][0x85][0xda][0x1c]U[0xb7][0xd5][0xcd]iNl[0xdf]<[0xb1]>[0xef][0x1a][0xad]7p0[0x3][0x1][0xb1][0xcb][0xf4][0xe7][0x9c][0xec]qN#[0xdb]H[0xf9]`[0x91][0xbe][0xfd]n|[0xcd]7[\n]"
+22:14:51.927 [main] DEBUG org.apache.http.wire -  << "[0x81]W[0xd7][0xaf]l;[0xa8][0xce]R[0xa6][0xd4][0xa9][0xea]Ru[0xd5]p[0xc5][0xb1]|[0x9b][0xa6]x[0xa4]+[0xf3]>[0xeb]vU=[0xf7]F[0xe][0xd8][0x92][0xe5][0xef]v][0x83][0xc][0x9a][0xd3]7[0xdb][0xcc][0xfc][0xae][0xc2][0xf0][0x82]{q[0xc3][0xc2][0x1d][0x13]f[0xb6]0`[0xab][0xd9]l[0xd1][0x1f]wt[0xde][0xeb][0x1a]q([0x87][0xa1][0x9d][0xbb][0xee][0xe9]t[0xe2]'[0x9f]7[0xdd][0xce][0x95][0x9e][0xe7][0xb9][0xe0]pF[0x96][0xf9][0xd9]D{[0x8a]Q[0xa4]i[0xea]Z[0xaa][0x83][0xcc]F*-[0x9d][0xb6][0xe9]+[0x93][0xd5][0xf3]l[0xd3]7[0xfa]0[0xa8][0xd7][0xa7][0xaa][0x18]Jh\[0xaa]jW[0xe]so[0xcc][0xcf]Bm[0xfb]1>[0x8b][0xfe]q[0xbf]i4[0x1d]+u[0xfa][0xbe]9/[0x1d][0x8f]<[0x92][0xe6][0xcf][0xa1][0xaa]X:[0x87]Z7[0xf9];UX9[0x13][0xd0]E[0x9b][\r]%[0x81]r'B[0x9e]P[0xb2][0x16][0xc1]C[0xc8][0xa3][0x1b][0x11][0x90][0xe4][0xb1][0xe7][0x93][0x90]<[0x8a]B[0x12]$<<b[0xee][0xfb][0x1][0xde][0xd1][0x85][0x1a][0x11][0x98][0x1f][0xa2]R[0x1e][0x19]O<q[0x93][0x90][0xcf][0xe3]0[0xa0][0x84][0xc7]iL[0x90][0xf6][0xc8][0xcf][0x5][0x97][0x0][0x82][0x12]di[0x12][0xb2]0[0xf6]!Y[0x7]9[0xe3]a[0x8][0x12][0x13][0xc4][0xa3] [0xc2]KX[0x92][0x88]s[0x8f]x[0x18][0xa4]<[0x90][0x89][0xd9][0xf3]S[0x9e][0x86][0x86][0xea]{[0xb1]6<P$[0x89]opx,I$<[0x89][0xa0][0x13][0xb0]H[0xa4][0xd0][0x11][0x8c]i[0x9]sr[0x3][0x81][0x83][0x85][0x81]a[0x6][0x5]K[0xe0][0xb0][0x8f]0[0x11][0x96]I[0xc]>[0x19][0x80][0x1e][0xc5][0xa0][0xfa][0xc]Z[0x8e][0xb]s\[0xf4][0x90][0x1a][0x95]nD[0xc][0xa3][0xa0]#[0xa1]X[0xfc]P[0x12][0xd4][0xb2][0xe]{rV[0xb][0xd7]8[0xf1][0x12][0x0]w[0x8c][0x0][0xf2][0xc2][0xba][0xf7]/[0xe2][0xf1]_D[0xe3][0xe2][0xd7];[0x1]'[0xaf][0x13]d[0xa3]q[0xff][0xdf]J[0xac]'[0xc7][0xf6].[[0xb4][0xb6][0x1e][0xbe]2[0x1a][0xb9]nz5U[0x1a][0x1][0xf7][0x3][0x4]<[0xe0]I[0x90]"g[0x83][0x8][0x89][0x19][0xa5][0xc][0x89]-[0xaf][0xab][0x8][0xf9][0xee][0xdd][0x9a]"[0x11]<[0x11][0xa9]f[0xa8][0x1b]d[0xac][0xcf]=[0xf9]E[0x11][0x8b][0xf6][0xe2]a1MEp j[0xd4]`[0x98]0[0x9f][0x8b][0x10]xq[0x98][0xda][0xa5][0x1c]U[0xf8]L([0xb9][\n]"
+22:14:51.927 [main] DEBUG org.apache.http.wire -  << "Y[0xd5][0xcc][0x3][0xc9].M[0xde][0x8f][0xcb][0x8f][\n]"
+22:14:51.927 [main] DEBUG org.apache.http.wire -  << "&\$>[0x90][0xa1][0x1e][0xe0]<_[0xe4]_[0x92] C[0xbc][0xfe][[0xc4][0xb1][0xa2][0x8c]vV'[0x13][0x19][0x81][0x82][0xb0][0xaa][0xda][0xb5][0xc5][0x9b][0x14]I[0xfe]id4Z[0xb5]bY[0xd7]5[0xa7][0xa9][0xf8][0xf8]\[0xa2][0xf4][0xbd][0xdb][0x88][0xb]/[0x85]&a[0x2][0x17][0xc9][0x8][0xb6][0xcb][0xf8][0xb2][0x88]=[0xc4][0x87][0xf1]4N[0xaf][0x4][0xb4]7t[0x2][0x89]R[0x87][0xab]<[0x1d][0xf3][0xc4]G[0xef]H=[0xb4][\r][0x88][0x82][0x0][0xf7][0xe1][0x1d][0x3][0x11][0xcd][0x8][0x82][0x9a][0xbd][0xe0][0xb1][0xb0][0x86][0x9][0xed][0xc2][0x3]'[0xce][0xb1]8[0x97][0xe3]$[0xd2]c<[0xe8][0xf9][0xe0][q[0xd1][0xf3]_[0xf0][0x2]+[0x9a][0x93][0x99]^L[0x93][0xf9][0xa4][0x8b][0xc7]<[0x10][0x9]z![0x1c][0x1];b9[0xea][0x9]#[0xc6][0x5][0xcc] [0xaf][0xb7][0xc6]AmkXd[\r][0x83][0xdd][0xb0]>[0xf1][0x8d][0xe3][0xe2][0x8f][0x9a][0x8f][0xb]+d[0xac][0x7][0x93][0xf5][0x81]e[0xba][0xd8]g,[0xb7]P[0xd6][0x1][0x6]y[0xea]H[[0x19][0xc6]|[0xf8][0x19][\n]"
+22:14:51.928 [main] DEBUG org.apache.http.wire -  << "[0x2]E[0x4]b[0xca][0xf]_h[0x9b][0xb8][0x92][0x82][0xf1][0x1a]{{[0xd8][0xb7]lh[0xa6][0xec]G[0xff]?[0x6]k[0xb4]f_[0xfb][0xc8][0x3]dx[0x98][0xde][0xc2]![0x9a]E[0xb8][0xb5][0xcc][0xf][0xb7][0x81]@y[0x5][0xe2][0xd6]p[0x91][0xf0][0xd7]R<[0xc4]S[0xba]X[0xd7]Nv[0xf0]gU[0xd4][0xb9][0xcd][0xea][0xc9][0xfb][0x14][0xad] )[0x83]#[0x93]%[0xb][0x8e][0xf2][0xe9][0xce][0xa7][0xe8](K[0x91]<Dk[0xff]i[0x8f]\+[0x5][0xae]M[0xb9][0xc6][0xee][0xf4][0xe1][0xb]w[0xbc][0xd8]1z[0x1c]wf[0xd0]([0xaa][0xa3][0xbd][0xc5][0x9f][0xa7]Hs[0xf9]`[0xd7]N!yW[0xb5][0x3][0xf5]][0xfe][0xe9][0xa0][0xc9][0xc6][0x91][0x98][0xbf][0xed][0x9d][0x95][0x99]b,[0x1b][0xc6][0xde]q1[0xc1][0x8f][0xb1][0xba].2[0xdd][0xd4][0x8a][0xb5][0x9d][0xc2],[0xfc][0xf5][0xa2]U][0xfd][0x89][0x1b]'[0x99]i[0xc6][0xa4]*V[0x9c][0xf8][0xd0][0xb4][0x98][0x4][0x89][0x9b]D[0xd6]MV[0xb0]C[0xa7][0xd9][0xa9][0xcb][0xda][0x16]3[0xf6]{3[0xd5][0xb7]:[0xc3]4XC[0x11][0xfa]@[0x98][0xca][0xd4][0xb6][0xaa]U1{1[0x89]]'0w[0x9c][0xed][0xff][0x0][0xc0][0xbd][0xcc][0x10] [0xc][0x0][0x0]"
+22:14:51.929 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+22:14:51.929 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+22:14:51.929 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+22:14:51.929 [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+22:14:51.934 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@43fbc2bf
+22:14:51.934 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+22:14:51.945 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send DELETE http request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send "&amp#27;[0m&amp#27;[32m&amp#27;[1mdelete&amp#27;[0m&amp#27;[32m" http request&amp#27;[0m                       &amp#27;[90m# starter.stepdefinitions.BookStep.sendGetHttpRequest(java.lang.String)&amp#27;[0m
+22:14:51.953 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccountStep.receiveValidDataForDetailUser - I receive valid http response code 200
+22:14:51.975 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid http response code 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid data for "&amp#27;[0m&amp#27;[32m&amp#27;[1mdelete&amp#27;[0m&amp#27;[32m" user&amp#27;[0m             &amp#27;[90m# starter.stepdefinitions.AccountStep.receiveValidDataForDetailUser(java.lang.String)&amp#27;[0m
+22:14:51.977 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+DELETE - As admin i have be able to delete user
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="GET - As admin i have be able to get detail Book" classname="Books" time="0.714">
+    <system-out><![CDATA[22:14:51.980 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Books.feature
+22:14:51.980 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Books.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+22:14:51.986 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@6293ed37
+22:14:51.986 [main] INFO  - Test Suite Started: Books
+
+Scenario: GET - As admin i have be able to get detail Book &amp#27;[90m# src/test/resources/api/Books.feature:4&amp#27;[0m
+22:14:51.994 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Books.feature
+22:14:51.995 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Books.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+22:14:51.999 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+GET - As admin i have be able to get detail Book(books;get---as-admin-i-have-be-able-to-get-detail-book)
+--------------------------------------------------------------------------------
+22:14:52.019 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: BookStep.getApiEndPoint - I set "get" api endpoints
+22:14:52.019 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set "get" api endpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set "&amp#27;[0m&amp#27;[32m&amp#27;[1mget&amp#27;[0m&amp#27;[32m" api endpoint&amp#27;[0m                           &amp#27;[90m# starter.stepdefinitions.BookStep.getApiEndPoint(java.lang.String)&amp#27;[0m
+22:14:52.025 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: BookStep.sendGetHttpRequest - I send "get" http request
+22:14:52.027 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Get.sendGetHttpRequest - I set "get" api endpoints
+22:14:52.027 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set "get" api endpoints
+22:14:52.042 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://demoqa.com:443
+22:14:52.042 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to demoqa.com:443
+22:14:52.475 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+22:14:52.475 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+22:14:52.476 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+22:14:52.476 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+22:14:52.476 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+22:14:52.476 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /swagger/ HTTP/1.1
+22:14:52.476 [main] DEBUG org.apache.http.wire -  >> "GET /swagger/ HTTP/1.1[\r][\n]"
+22:14:52.476 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+22:14:52.476 [main] DEBUG org.apache.http.wire -  >> "Host: demoqa.com[\r][\n]"
+22:14:52.476 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+22:14:52.476 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)[\r][\n]"
+22:14:52.476 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:14:52.476 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+22:14:52.476 [main] DEBUG org.apache.http.headers - >> GET /swagger/ HTTP/1.1
+22:14:52.476 [main] DEBUG org.apache.http.headers - >> Accept: */*
+22:14:52.476 [main] DEBUG org.apache.http.headers - >> Host: demoqa.com
+22:14:52.476 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+22:14:52.476 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+22:14:52.476 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+22:14:52.686 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+22:14:52.686 [main] DEBUG org.apache.http.wire -  << "Server: nginx/1.17.10 (Ubuntu)[\r][\n]"
+22:14:52.686 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 27 Mar 2022 15:14:51 GMT[\r][\n]"
+22:14:52.686 [main] DEBUG org.apache.http.wire -  << "Content-Type: text/html; charset=utf-8[\r][\n]"
+22:14:52.686 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+22:14:52.686 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+22:14:52.687 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+22:14:52.687 [main] DEBUG org.apache.http.wire -  << "ETag: W/"c20-YaHADSLwvE3kEdwr5u3Bfu2fhF8"[\r][\n]"
+22:14:52.687 [main] DEBUG org.apache.http.wire -  << "Content-Encoding: gzip[\r][\n]"
+22:14:52.687 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+22:14:52.687 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+22:14:52.687 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+22:14:52.687 [main] DEBUG org.apache.http.headers - << Server: nginx/1.17.10 (Ubuntu)
+22:14:52.687 [main] DEBUG org.apache.http.headers - << Date: Sun, 27 Mar 2022 15:14:51 GMT
+22:14:52.688 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=utf-8
+22:14:52.688 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+22:14:52.688 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+22:14:52.688 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+22:14:52.688 [main] DEBUG org.apache.http.headers - << ETag: W/"c20-YaHADSLwvE3kEdwr5u3Bfu2fhF8"
+22:14:52.688 [main] DEBUG org.apache.http.headers - << Content-Encoding: gzip
+22:14:52.688 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+22:14:52.689 [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: text/html; charset=utf-8
+22:14:52.689 [main] DEBUG org.apache.http.wire -  << "510[\r][\n]"
+22:14:52.689 [main] DEBUG org.apache.http.wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x4][0x3][0xdd]VK[0x8f][0xdb]6[0x10][0xbe][0xfb]WL[0xd4][QR"[0xf5]vl[0x1f][0xba]m[0xe1][0x2][0xbb]h[0x81]n[0x16][0xe8]Q[0x96]hK[0x9]-[0x9][0x92][0xfc][0xd8][\r][0xf2][0xdf][0xfb][0x91][0xb2][0xb3][0x9b]TH[0xd3][0xa2][0xbd][0x14][0xde][0x95]([0xce][0xcc][0xc7]ysf[0x8b]W[0x8c][0xd1][0xfa][0xfe][0xee][0x96][0xb6]MG[0xfd][0x90][\r]UNE[0xd5][0xf]][0xb5]9[0xc]US[0xd3][0xe6]P[0x17]Z[0xe1]U[0xe9][0x82][0x18][[0xcd][0x16][0xaf]~[0xf8][0xe5][0xe6][0xfe][0xf7]_[0xa4]r[0xd8]k|[0x9b][0x17][0xe9][0xac][0xde]-[0x1d]U;fCe[0xc5]jF[0xb4][0xd8][0xab]![0xa3][0xbc][0xcc][0xba]^[\r]K[0xe7][0xcd][0xfd]O,[0x1][0x1d][0x84][0xa1][0x1a][0xb4]Z[0xfd]v[0xca]v;[0xd5][0xd1][0x9b][0x9f][0x17][0xee][0xb8]ch[0xba][0xaa][0xdf]Q[0xa7][0xf4][0xd2][0xe9][0x87]G[0xad][0xfa]R[0xa9][0xc1][0xa1][0xe1][0xb1]UKgP[0xe7][0xc1][0xcd][0xfb][0xde][0xa1][0xb2]S[0xdb][0xa5][0xc3][0xdd]~[0xc4]`[0x87][0x8a][0xdb]}[0xb][0xff][0xc]Q[0xe5]M}[0x15][0xae][0xf6][0xd9]N[0xb9]m[0xbd]{[0x96][0xde]fG[0xc3][0xc1]|y[0xf6]%[0xb7][0xa4][0xbe]zR[0xfd][0xd2][0xb1];[0xe][0xb9][0xab][0x17][0xfa]|%[0x98][0x88][0xce]"[0xfa][0x4][0xcc][0xee][0x18]0[0xd8]gL[0xb4][0x86][0x99][0xf][0xb2]>[0xb4][0x8b][0xf7][0xf6]I[0xb4]i[0xce][0xc]:T[0xf5]n[0x8e]uW[0xa8][0x8e]a[0xeb][0xf5][0x85][0xda][0x1c]U[0xb7][0xd5][0xcd]iNl[0xdf]<[0xb1]>[0xef][0x1a][0xad]7p0[0x3][0x1][0xb1][0xcb][0xf4][0xe7][0x9c][0xec]qN#[0xdb]H[0xf9]`[0x91][0xbe][0xfd]n|[0xcd]7[\n]"
+22:14:52.690 [main] DEBUG org.apache.http.wire -  << "[0x81]W[0xd7][0xaf]l;[0xa8][0xce]R[0xa6][0xd4][0xa9][0xea]Ru[0xd5]p[0xc5][0xb1]|[0x9b][0xa6]x[0xa4]+[0xf3]>[0xeb]vU=[0xf7]F[0xe][0xd8][0x92][0xe5][0xef]v][0x83][0xc][0x9a][0xd3]7[0xdb][0xcc][0xfc][0xae][0xc2][0xf0][0x82]{q[0xc3][0xc2][0x1d][0x13]f[0xb6]0`[0xab][0xd9]l[0xd1][0x1f]wt[0xde][0xeb][0x1a]q([0x87][0xa1][0x9d][0xbb][0xee][0xe9]t[0xe2]'[0x9f]7[0xdd][0xce][0x95][0x9e][0xe7][0xb9][0xe0]pF[0x96][0xf9][0xd9]D{[0x8a]Q[0xa4]i[0xea]Z[0xaa][0x83][0xcc]F*-[0x9d][0xb6][0xe9]+[0x93][0xd5][0xf3]l[0xd3]7[0xfa]0[0xa8][0xd7][0xa7][0xaa][0x18]Jh\[0xaa]jW[0xe]so[0xcc][0xcf]Bm[0xfb]1>[0x8b][0xfe]q[0xbf]i4[0x1d]+u[0xfa][0xbe]9/[0x1d][0x8f]<[0x92][0xe6][0xcf][0xa1][0xaa]X:[0x87]Z7[0xf9];UX9[0x13][0xd0]E[0x9b][\r]%[0x81]r'B[0x9e]P[0xb2][0x16][0xc1]C[0xc8][0xa3][0x1b][0x11][0x90][0xe4][0xb1][0xe7][0x93][0x90]<[0x8a]B[0x12]$<<b[0xee][0xfb][0x1][0xde][0xd1][0x85][0x1a][0x11][0x98][0x1f][0xa2]R[0x1e][0x19]O<q[0x93][0x90][0xcf][0xe3]0[0xa0][0x84][0xc7]iL[0x90][0xf6][0xc8][0xcf][0x5][0x97][0x0][0x82][0x12]di[0x12][0xb2]0[0xf6]!Y[0x7]9[0xe3]a[0x8][0x12][0x13][0xc4][0xa3] [0xc2]KX[0x92][0x88]s[0x8f]x[0x18][0xa4]<[0x90][0x89][0xd9][0xf3]S[0x9e][0x86][0x86][0xea]{[0xb1]6<P$[0x89]opx,I$<[0x89][0xa0][0x13][0xb0]H[0xa4][0xd0][0x11][0x8c]i[0x9]sr[0x3][0x81][0x83][0x85][0x81]a[0x6][0x5]K[0xe0][0xb0][0x8f]0[0x11][0x96]I[0xc]>[0x19][0x80][0x1e][0xc5][0xa0][0xfa][0xc]Z[0x8e][0xb]s\[0xf4][0x90][0x1a][0x95]nD[0xc][0xa3][0xa0]#[0xa1]X[0xfc]P[0x12][0xd4][0xb2][0xe]{rV[0xb][0xd7]8[0xf1][0x12][0x0]w[0x8c][0x0][0xf2][0xc2][0xba][0xf7]/[0xe2][0xf1]_D[0xe3][0xe2][0xd7];[0x1]'[0xaf][0x13]d[0xa3]q[0xff][0xdf]J[0xac]'[0xc7][0xf6].[[0xb4][0xb6][0x1e][0xbe]2[0x1a][0xb9]nz5U[0x1a][0x1][0xf7][0x3][0x4]<[0xe0]I[0x90]"g[0x83][0x8][0x89][0x19][0xa5][0xc][0x89]-[0xaf][0xab][0x8][0xf9][0xee][0xdd][0x9a]"[0x11]<[0x11][0xa9]f[0xa8][0x1b]d[0xac][0xcf]=[0xf9]E[0x11][0x8b][0xf6][0xe2]a1MEp j[0xd4]`[0x98]0[0x9f][0x8b][0x10]xq[0x98][0xda][0xa5][0x1c]U[0xf8]L([0xb9][\n]"
+22:14:52.690 [main] DEBUG org.apache.http.wire -  << "Y[0xd5][0xcc][0x3][0xc9].M[0xde][0x8f][0xcb][0x8f][\n]"
+22:14:52.690 [main] DEBUG org.apache.http.wire -  << "&\$>[0x90][0xa1][0x1e][0xe0]<_[0xe4]_[0x92] C[0xbc][0xfe][[0xc4][0xb1][0xa2][0x8c]vV'[0x13][0x19][0x81][0x82][0xb0][0xaa][0xda][0xb5][0xc5][0x9b][0x14]I[0xfe]id4Z[0xb5]bY[0xd7]5[0xa7][0xa9][0xf8][0xf8]\[0xa2][0xf4][0xbd][0xdb][0x88][0xb]/[0x85]&a[0x2][0x17][0xc9][0x8][0xb6][0xcb][0xf8][0xb2][0x88]=[0xc4][0x87][0xf1]4N[0xaf][0x4][0xb4]7t[0x2][0x89]R[0x87][0xab]<[0x1d][0xf3][0xc4]G[0xef]H=[0xb4][\r][0x88][0x82][0x0][0xf7][0xe1][0x1d][0x3][0x11][0xcd][0x8][0x82][0x9a][0xbd][0xe0][0xb1][0xb0][0x86][0x9][0xed][0xc2][0x3]'[0xce][0xb1]8[0x97][0xe3]$[0xd2]c<[0xe8][0xf9][0xe0][q[0xd1][0xf3]_[0xf0][0x2]+[0x9a][0x93][0x99]^L[0x93][0xf9][0xa4][0x8b][0xc7]<[0x10][0x9]z![0x1c][0x1];b9[0xea][0x9]#[0xc6][0x5][0xcc] [0xaf][0xb7][0xc6]AmkXd[\r][0x83][0xdd][0xb0]>[0xf1][0x8d][0xe3][0xe2][0x8f][0x9a][0x8f][0xb]+d[0xac][0x7][0x93][0xf5][0x81]e[0xba][0xd8]g,[0xb7]P[0xd6][0x1][0x6]y[0xea]H[[0x19][0xc6]|[0xf8][0x19][\n]"
+22:14:52.690 [main] DEBUG org.apache.http.wire -  << "[0x2]E[0x4]b[0xca][0xf]_h[0x9b][0xb8][0x92][0x82][0xf1][0x1a]{{[0xd8][0xb7]lh[0xa6][0xec]G[0xff]?[0x6]k[0xb4]f_[0xfb][0xc8][0x3]dx[0x98][0xde][0xc2]![0x9a]E[0xb8][0xb5][0xcc][0xf][0xb7][0x81]@y[0x5][0xe2][0xd6]p[0x91][0xf0][0xd7]R<[0xc4]S[0xba]X[0xd7]Nv[0xf0]gU[0xd4][0xb9][0xcd][0xea][0xc9][0xfb][0x14][0xad] )[0x83]#[0x93]%[0xb][0x8e][0xf2][0xe9][0xce][0xa7][0xe8](K[0x91]<Dk[0xff]i[0x8f]\+[0x5][0xae]M[0xb9][0xc6][0xee][0xf4][0xe1][0xb]w[0xbc][0xd8]1z[0x1c]wf[0xd0]([0xaa][0xa3][0xbd][0xc5][0x9f][0xa7]Hs[0xf9]`[0xd7]N!yW[0xb5][0x3][0xf5]][0xfe][0xe9][0xa0][0xc9][0xc6][0x91][0x98][0xbf][0xed][0x9d][0x95][0x99]b,[0x1b][0xc6][0xde]q1[0xc1][0x8f][0xb1][0xba].2[0xdd][0xd4][0x8a][0xb5][0x9d][0xc2],[0xfc][0xf5][0xa2]U][0xfd][0x89][0x1b]'[0x99]i[0xc6][0xa4]*V[0x9c][0xf8][0xd0][0xb4][0x98][0x4][0x89][0x9b]D[0xd6]MV[0xb0]C[0xa7][0xd9][0xa9][0xcb][0xda][0x16]3[0xf6]{3[0xd5][0xb7]:[0xc3]4XC[0x11][0xfa]@[0x98][0xca][0xd4][0xb6][0xaa]U1{1[0x89]]'0w[0x9c][0xed][0xff][0x0][0xc0][0xbd][0xcc][0x10] [0xc][0x0][0x0]"
+22:14:52.691 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+22:14:52.691 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+22:14:52.691 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+22:14:52.691 [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+22:14:52.694 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@116b0b32
+22:14:52.694 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+22:14:52.696 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send "get" http request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send "&amp#27;[0m&amp#27;[32m&amp#27;[1mget&amp#27;[0m&amp#27;[32m" http request&amp#27;[0m                           &amp#27;[90m# starter.stepdefinitions.BookStep.sendGetHttpRequest(java.lang.String)&amp#27;[0m
+22:14:52.700 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: BookStep.receiveValidDataForDetailBook - I receive valid data for "detail" book
+22:14:52.700 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid data for "detail" book
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid data for "&amp#27;[0m&amp#27;[32m&amp#27;[1mdetail&amp#27;[0m&amp#27;[32m" book&amp#27;[0m              &amp#27;[90m# starter.stepdefinitions.BookStep.receiveValidDataForDetailBook(java.lang.String)&amp#27;[0m
+22:14:52.702 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+GET - As admin i have be able to get detail Book
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="POST - As admin i have be able to add list of book" classname="Books" time="0.749">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+XML path 'userId' doesn't match.
+Expected: 6c2db9bf-ceb2-4c39-90fb-c0b1d01ddc0
+  Actual: <nullSwagger UInullnullnull
+    html
+    {
+      box-sizing: border-box;
+      overflow: -moz-scrollbars-vertical;
+      overflow-y: scroll;
+    }
+    *,
+    *:before,
+    *:after
+    {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin:0;
+      background: #fafafa;
+    }
+  nullnullnullnullnullnullnullnullnullnullnull
+  .swagger-ui .topbar .download-url-wrapper { display: none } undefined
+>
+
+]]></failure>
+    <system-out><![CDATA[
+Scenario: POST - As admin i have be able to add list of book &amp#27;[90m# src/test/resources/api/Books.feature:9&amp#27;[0m
+22:14:52.708 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Books.feature
+22:14:52.708 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Books.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+22:14:52.711 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+POST - As admin i have be able to add list of book(books;post---as-admin-i-have-be-able-to-add-list-of-book)
+--------------------------------------------------------------------------------
+22:14:52.730 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: BookStep.getApiEndPoint - I set post api endpoints
+22:14:52.730 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set post api endpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set "&amp#27;[0m&amp#27;[32m&amp#27;[1mpost&amp#27;[0m&amp#27;[32m" api endpoint&amp#27;[0m                            &amp#27;[90m# starter.stepdefinitions.BookStep.getApiEndPoint(java.lang.String)&amp#27;[0m
+22:14:52.734 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: BookStep.sendGetHttpRequest - I send post http request
+22:14:52.737 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Post.postHttpRequest - I set post api endpoints
+22:14:52.737 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set post api endpoints
+22:14:52.752 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://demoqa.com:443
+22:14:52.752 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to demoqa.com:443
+22:14:53.200 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+22:14:53.200 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+22:14:53.200 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+22:14:53.200 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+22:14:53.201 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+22:14:53.201 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /swagger/ HTTP/1.1
+22:14:53.201 [main] DEBUG org.apache.http.wire -  >> "POST /swagger/ HTTP/1.1[\r][\n]"
+22:14:53.201 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+22:14:53.201 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+22:14:53.201 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 71[\r][\n]"
+22:14:53.201 [main] DEBUG org.apache.http.wire -  >> "Host: demoqa.com[\r][\n]"
+22:14:53.201 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+22:14:53.201 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)[\r][\n]"
+22:14:53.201 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:14:53.201 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+22:14:53.202 [main] DEBUG org.apache.http.headers - >> POST /swagger/ HTTP/1.1
+22:14:53.202 [main] DEBUG org.apache.http.headers - >> Accept: */*
+22:14:53.202 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+22:14:53.202 [main] DEBUG org.apache.http.headers - >> Content-Length: 71
+22:14:53.202 [main] DEBUG org.apache.http.headers - >> Host: demoqa.com
+22:14:53.202 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+22:14:53.202 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+22:14:53.202 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+22:14:53.202 [main] DEBUG org.apache.http.wire -  >> "{"ISBN":"9781491950296","userId":"6c2db9bf-ceb2-4c39-90fb-c0b1d01ddc0"}"
+22:14:53.413 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+22:14:53.413 [main] DEBUG org.apache.http.wire -  << "Server: nginx/1.17.10 (Ubuntu)[\r][\n]"
+22:14:53.413 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 27 Mar 2022 15:14:52 GMT[\r][\n]"
+22:14:53.414 [main] DEBUG org.apache.http.wire -  << "Content-Type: text/html; charset=utf-8[\r][\n]"
+22:14:53.414 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+22:14:53.414 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+22:14:53.414 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+22:14:53.414 [main] DEBUG org.apache.http.wire -  << "ETag: W/"c20-YaHADSLwvE3kEdwr5u3Bfu2fhF8"[\r][\n]"
+22:14:53.414 [main] DEBUG org.apache.http.wire -  << "Content-Encoding: gzip[\r][\n]"
+22:14:53.414 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+22:14:53.415 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+22:14:53.415 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+22:14:53.415 [main] DEBUG org.apache.http.headers - << Server: nginx/1.17.10 (Ubuntu)
+22:14:53.415 [main] DEBUG org.apache.http.headers - << Date: Sun, 27 Mar 2022 15:14:52 GMT
+22:14:53.415 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=utf-8
+22:14:53.415 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+22:14:53.415 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+22:14:53.415 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+22:14:53.415 [main] DEBUG org.apache.http.headers - << ETag: W/"c20-YaHADSLwvE3kEdwr5u3Bfu2fhF8"
+22:14:53.415 [main] DEBUG org.apache.http.headers - << Content-Encoding: gzip
+22:14:53.416 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+22:14:53.416 [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: text/html; charset=utf-8
+22:14:53.417 [main] DEBUG org.apache.http.wire -  << "510[\r][\n]"
+22:14:53.417 [main] DEBUG org.apache.http.wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x4][0x3][0xdd]VK[0x8f][0xdb]6[0x10][0xbe][0xfb]WL[0xd4][QR"[0xf5]vl[0x1f][0xba]m[0xe1][0x2][0xbb]h[0x81]n[0x16][0xe8]Q[0x96]hK[0x9]-[0x9][0x92][0xfc][0xd8][\r][0xf2][0xdf][0xfb][0x91][0xb2][0xb3][0x9b]TH[0xd3][0xa2][0xbd][0x14][0xde][0x95]([0xce][0xcc][0xc7]ysf[0x8b]W[0x8c][0xd1][0xfa][0xfe][0xee][0x96][0xb6]MG[0xfd][0x90][\r]UNE[0xd5][0xf]][0xb5]9[0xc]US[0xd3][0xe6]P[0x17]Z[0xe1]U[0xe9][0x82][0x18][[0xcd][0x16][0xaf]~[0xf8][0xe5][0xe6][0xfe][0xf7]_[0xa4]r[0xd8]k|[0x9b][0x17][0xe9][0xac][0xde]-[0x1d]U;fCe[0xc5]jF[0xb4][0xd8][0xab]![0xa3][0xbc][0xcc][0xba]^[\r]K[0xe7][0xcd][0xfd]O,[0x1][0x1d][0x84][0xa1][0x1a][0xb4]Z[0xfd]v[0xca]v;[0xd5][0xd1][0x9b][0x9f][0x17][0xee][0xb8]ch[0xba][0xaa][0xdf]Q[0xa7][0xf4][0xd2][0xe9][0x87]G[0xad][0xfa]R[0xa9][0xc1][0xa1][0xe1][0xb1]UKgP[0xe7][0xc1][0xcd][0xfb][0xde][0xa1][0xb2]S[0xdb][0xa5][0xc3][0xdd]~[0xc4]`[0x87][0x8a][0xdb]}[0xb][0xff][0xc]Q[0xe5]M}[0x15][0xae][0xf6][0xd9]N[0xb9]m[0xbd]{[0x96][0xde]fG[0xc3][0xc1]|y[0xf6]%[0xb7][0xa4][0xbe]zR[0xfd][0xd2][0xb1];[0xe][0xb9][0xab][0x17][0xfa]|%[0x98][0x88][0xce]"[0xfa][0x4][0xcc][0xee][0x18]0[0xd8]gL[0xb4][0x86][0x99][0xf][0xb2]>[0xb4][0x8b][0xf7][0xf6]I[0xb4]i[0xce][0xc]:T[0xf5]n[0x8e]uW[0xa8][0x8e]a[0xeb][0xf5][0x85][0xda][0x1c]U[0xb7][0xd5][0xcd]iNl[0xdf]<[0xb1]>[0xef][0x1a][0xad]7p0[0x3][0x1][0xb1][0xcb][0xf4][0xe7][0x9c][0xec]qN#[0xdb]H[0xf9]`[0x91][0xbe][0xfd]n|[0xcd]7[\n]"
+22:14:53.417 [main] DEBUG org.apache.http.wire -  << "[0x81]W[0xd7][0xaf]l;[0xa8][0xce]R[0xa6][0xd4][0xa9][0xea]Ru[0xd5]p[0xc5][0xb1]|[0x9b][0xa6]x[0xa4]+[0xf3]>[0xeb]vU=[0xf7]F[0xe][0xd8][0x92][0xe5][0xef]v][0x83][0xc][0x9a][0xd3]7[0xdb][0xcc][0xfc][0xae][0xc2][0xf0][0x82]{q[0xc3][0xc2][0x1d][0x13]f[0xb6]0`[0xab][0xd9]l[0xd1][0x1f]wt[0xde][0xeb][0x1a]q([0x87][0xa1][0x9d][0xbb][0xee][0xe9]t[0xe2]'[0x9f]7[0xdd][0xce][0x95][0x9e][0xe7][0xb9][0xe0]pF[0x96][0xf9][0xd9]D{[0x8a]Q[0xa4]i[0xea]Z[0xaa][0x83][0xcc]F*-[0x9d][0xb6][0xe9]+[0x93][0xd5][0xf3]l[0xd3]7[0xfa]0[0xa8][0xd7][0xa7][0xaa][0x18]Jh\[0xaa]jW[0xe]so[0xcc][0xcf]Bm[0xfb]1>[0x8b][0xfe]q[0xbf]i4[0x1d]+u[0xfa][0xbe]9/[0x1d][0x8f]<[0x92][0xe6][0xcf][0xa1][0xaa]X:[0x87]Z7[0xf9];UX9[0x13][0xd0]E[0x9b][\r]%[0x81]r'B[0x9e]P[0xb2][0x16][0xc1]C[0xc8][0xa3][0x1b][0x11][0x90][0xe4][0xb1][0xe7][0x93][0x90]<[0x8a]B[0x12]$<<b[0xee][0xfb][0x1][0xde][0xd1][0x85][0x1a][0x11][0x98][0x1f][0xa2]R[0x1e][0x19]O<q[0x93][0x90][0xcf][0xe3]0[0xa0][0x84][0xc7]iL[0x90][0xf6][0xc8][0xcf][0x5][0x97][0x0][0x82][0x12]di[0x12][0xb2]0[0xf6]!Y[0x7]9[0xe3]a[0x8][0x12][0x13][0xc4][0xa3] [0xc2]KX[0x92][0x88]s[0x8f]x[0x18][0xa4]<[0x90][0x89][0xd9][0xf3]S[0x9e][0x86][0x86][0xea]{[0xb1]6<P$[0x89]opx,I$<[0x89][0xa0][0x13][0xb0]H[0xa4][0xd0][0x11][0x8c]i[0x9]sr[0x3][0x81][0x83][0x85][0x81]a[0x6][0x5]K[0xe0][0xb0][0x8f]0[0x11][0x96]I[0xc]>[0x19][0x80][0x1e][0xc5][0xa0][0xfa][0xc]Z[0x8e][0xb]s\[0xf4][0x90][0x1a][0x95]nD[0xc][0xa3][0xa0]#[0xa1]X[0xfc]P[0x12][0xd4][0xb2][0xe]{rV[0xb][0xd7]8[0xf1][0x12][0x0]w[0x8c][0x0][0xf2][0xc2][0xba][0xf7]/[0xe2][0xf1]_D[0xe3][0xe2][0xd7];[0x1]'[0xaf][0x13]d[0xa3]q[0xff][0xdf]J[0xac]'[0xc7][0xf6].[[0xb4][0xb6][0x1e][0xbe]2[0x1a][0xb9]nz5U[0x1a][0x1][0xf7][0x3][0x4]<[0xe0]I[0x90]"g[0x83][0x8][0x89][0x19][0xa5][0xc][0x89]-[0xaf][0xab][0x8][0xf9][0xee][0xdd][0x9a]"[0x11]<[0x11][0xa9]f[0xa8][0x1b]d[0xac][0xcf]=[0xf9]E[0x11][0x8b][0xf6][0xe2]a1MEp j[0xd4]`[0x98]0[0x9f][0x8b][0x10]xq[0x98][0xda][0xa5][0x1c]U[0xf8]L([0xb9][\n]"
+22:14:53.418 [main] DEBUG org.apache.http.wire -  << "Y[0xd5][0xcc][0x3][0xc9].M[0xde][0x8f][0xcb][0x8f][\n]"
+22:14:53.418 [main] DEBUG org.apache.http.wire -  << "&\$>[0x90][0xa1][0x1e][0xe0]<_[0xe4]_[0x92] C[0xbc][0xfe][[0xc4][0xb1][0xa2][0x8c]vV'[0x13][0x19][0x81][0x82][0xb0][0xaa][0xda][0xb5][0xc5][0x9b][0x14]I[0xfe]id4Z[0xb5]bY[0xd7]5[0xa7][0xa9][0xf8][0xf8]\[0xa2][0xf4][0xbd][0xdb][0x88][0xb]/[0x85]&a[0x2][0x17][0xc9][0x8][0xb6][0xcb][0xf8][0xb2][0x88]=[0xc4][0x87][0xf1]4N[0xaf][0x4][0xb4]7t[0x2][0x89]R[0x87][0xab]<[0x1d][0xf3][0xc4]G[0xef]H=[0xb4][\r][0x88][0x82][0x0][0xf7][0xe1][0x1d][0x3][0x11][0xcd][0x8][0x82][0x9a][0xbd][0xe0][0xb1][0xb0][0x86][0x9][0xed][0xc2][0x3]'[0xce][0xb1]8[0x97][0xe3]$[0xd2]c<[0xe8][0xf9][0xe0][q[0xd1][0xf3]_[0xf0][0x2]+[0x9a][0x93][0x99]^L[0x93][0xf9][0xa4][0x8b][0xc7]<[0x10][0x9]z![0x1c][0x1];b9[0xea][0x9]#[0xc6][0x5][0xcc] [0xaf][0xb7][0xc6]AmkXd[\r][0x83][0xdd][0xb0]>[0xf1][0x8d][0xe3][0xe2][0x8f][0x9a][0x8f][0xb]+d[0xac][0x7][0x93][0xf5][0x81]e[0xba][0xd8]g,[0xb7]P[0xd6][0x1][0x6]y[0xea]H[[0x19][0xc6]|[0xf8][0x19][\n]"
+22:14:53.418 [main] DEBUG org.apache.http.wire -  << "[0x2]E[0x4]b[0xca][0xf]_h[0x9b][0xb8][0x92][0x82][0xf1][0x1a]{{[0xd8][0xb7]lh[0xa6][0xec]G[0xff]?[0x6]k[0xb4]f_[0xfb][0xc8][0x3]dx[0x98][0xde][0xc2]![0x9a]E[0xb8][0xb5][0xcc][0xf][0xb7][0x81]@y[0x5][0xe2][0xd6]p[0x91][0xf0][0xd7]R<[0xc4]S[0xba]X[0xd7]Nv[0xf0]gU[0xd4][0xb9][0xcd][0xea][0xc9][0xfb][0x14][0xad] )[0x83]#[0x93]%[0xb][0x8e][0xf2][0xe9][0xce][0xa7][0xe8](K[0x91]<Dk[0xff]i[0x8f]\+[0x5][0xae]M[0xb9][0xc6][0xee][0xf4][0xe1][0xb]w[0xbc][0xd8]1z[0x1c]wf[0xd0]([0xaa][0xa3][0xbd][0xc5][0x9f][0xa7]Hs[0xf9]`[0xd7]N!yW[0xb5][0x3][0xf5]][0xfe][0xe9][0xa0][0xc9][0xc6][0x91][0x98][0xbf][0xed][0x9d][0x95][0x99]b,[0x1b][0xc6][0xde]q1[0xc1][0x8f][0xb1][0xba].2[0xdd][0xd4][0x8a][0xb5][0x9d][0xc2],[0xfc][0xf5][0xa2]U][0xfd][0x89][0x1b]'[0x99]i[0xc6][0xa4]*V[0x9c][0xf8][0xd0][0xb4][0x98][0x4][0x89][0x9b]D[0xd6]MV[0xb0]C[0xa7][0xd9][0xa9][0xcb][0xda][0x16]3[0xf6]{3[0xd5][0xb7]:[0xc3]4XC[0x11][0xfa]@[0x98][0xca][0xd4][0xb6][0xaa]U1{1[0x89]]'0w[0x9c][0xed][0xff][0x0][0xc0][0xbd][0xcc][0x10] [0xc][0x0][0x0]"
+22:14:53.418 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+22:14:53.418 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+22:14:53.418 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+22:14:53.418 [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+22:14:53.419 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@446f3a53
+22:14:53.419 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+22:14:53.422 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send post http request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send "&amp#27;[0m&amp#27;[32m&amp#27;[1mpost&amp#27;[0m&amp#27;[32m" http request&amp#27;[0m                            &amp#27;[90m# starter.stepdefinitions.BookStep.sendGetHttpRequest(java.lang.String)&amp#27;[0m
+22:14:53.425 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: BookStep.receiveValidDataForDetailBook - I receive valid data for add book
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI receive valid data for "&amp#27;[0m&amp#27;[31m&amp#27;[1madd&amp#27;[0m&amp#27;[31m" book&amp#27;[0m                   &amp#27;[90m# starter.stepdefinitions.BookStep.receiveValidDataForDetailBook(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
+XML path 'userId' doesn't match.
+Expected: 6c2db9bf-ceb2-4c39-90fb-c0b1d01ddc0
+  Actual: <nullSwagger UInullnullnull
+    html
+    {
+      box-sizing: border-box;
+      overflow: -moz-scrollbars-vertical;
+      overflow-y: scroll;
+    }
+    *,
+    *:before,
+    *:after
+    {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin:0;
+      background: #fafafa;
+    }
+  nullnullnullnullnullnullnullnullnullnullnull
+  .swagger-ui .topbar .download-url-wrapper { display: none } undefined
+>
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:262)
+	at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:109)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at starter.book.Post.lambda$receiveValidDataForAddBook$0(Post.java:29)
+	at net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)
+	at starter.book.Post.receiveValidDataForAddBook(Post.java:29)
+	at starter.book.Post$ByteBuddy$QH39nXBp.receiveValidDataForAddBook$accessor$a7PqFTWd(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:503)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:483)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:457)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:209)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:196)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:84)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at starter.book.Post$ByteBuddy$QH39nXBp.receiveValidDataForAddBook(Unknown Source)
+	at starter.stepdefinitions.BookStep.receiveValidDataForDetailBook(BookStep.java:53)
+	at âœ½.I receive valid data for "add" book(file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Books.feature:12)
+&amp#27;[0m
+22:14:53.450 [main] ERROR  - 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+POST - As admin i have be able to add list of book
+-----------------------------------------------------------------------
+22:14:53.450 [main] DEBUG  - RELATED ISSUES: 
+22:14:53.451 [main] ERROR  -     Test failed at step: I receive valid data for add book
+22:14:53.451 [main] ERROR  -     1 expectation failed.XML path 'userId' doesn't match.Expected: 6c2db9bf-ceb2-4c39-90fb-c0b1d01ddc0  Actual: <nullSwagger UInullnullnull    html    {  box-sizing: border-box;  overflow: -moz-scrollbars-vertical;  overflow-y: scroll;    }    *,    *:before,    *:after    {  box-sizing: inherit;    }    body {  margin:0;  background: #fafafa;    }  nullnullnullnullnullnullnullnullnullnullnull  .swagger-ui .topbar .download-url-wrapper { display: none } undefined>
+]]></system-out>
+  </testcase>
+  <testcase name="PUT - As admin i have be able to replace ISBN of book" classname="Books" time="0.679">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+XML path 'ISBN' doesn't match.
+Expected: 123
+  Actual: <nullSwagger UInullnullnull
+    html
+    {
+      box-sizing: border-box;
+      overflow: -moz-scrollbars-vertical;
+      overflow-y: scroll;
+    }
+    *,
+    *:before,
+    *:after
+    {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin:0;
+      background: #fafafa;
+    }
+  nullnullnullnullnullnullnullnullnullnullnull
+  .swagger-ui .topbar .download-url-wrapper { display: none } undefined
+>
+
+]]></failure>
+    <system-out><![CDATA[
+Scenario: PUT - As admin i have be able to replace ISBN of book &amp#27;[90m# src/test/resources/api/Books.feature:14&amp#27;[0m
+22:14:53.456 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Books.feature
+22:14:53.456 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Books.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+22:14:53.459 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+PUT - As admin i have be able to replace ISBN of book(books;put---as-admin-i-have-be-able-to-replace-isbn-of-book)
+--------------------------------------------------------------------------------
+22:14:53.471 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: BookStep.getApiEndPoint - I set PUT api endpoints
+22:14:53.471 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set PUT api endpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set "&amp#27;[0m&amp#27;[32m&amp#27;[1mput&amp#27;[0m&amp#27;[32m" api endpoint&amp#27;[0m                                &amp#27;[90m# starter.stepdefinitions.BookStep.getApiEndPoint(java.lang.String)&amp#27;[0m
+22:14:53.475 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: BookStep.sendGetHttpRequest - I send PUT http request
+22:14:53.477 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Put.sendPutHttpRequest - I set PUT api endpoints
+22:14:53.478 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set PUT api endpoints
+22:14:53.491 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://demoqa.com:443
+22:14:53.491 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to demoqa.com:443
+22:14:53.887 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+22:14:53.887 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+22:14:53.887 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+22:14:53.887 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+22:14:53.887 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+22:14:53.887 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: PUT /swagger/ HTTP/1.1
+22:14:53.887 [main] DEBUG org.apache.http.wire -  >> "PUT /swagger/ HTTP/1.1[\r][\n]"
+22:14:53.887 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+22:14:53.887 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+22:14:53.887 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 72[\r][\n]"
+22:14:53.887 [main] DEBUG org.apache.http.wire -  >> "Host: demoqa.com[\r][\n]"
+22:14:53.887 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+22:14:53.887 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)[\r][\n]"
+22:14:53.887 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:14:53.887 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+22:14:53.887 [main] DEBUG org.apache.http.headers - >> PUT /swagger/ HTTP/1.1
+22:14:53.887 [main] DEBUG org.apache.http.headers - >> Accept: */*
+22:14:53.887 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+22:14:53.887 [main] DEBUG org.apache.http.headers - >> Content-Length: 72
+22:14:53.887 [main] DEBUG org.apache.http.headers - >> Host: demoqa.com
+22:14:53.887 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+22:14:53.887 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+22:14:53.887 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+22:14:53.887 [main] DEBUG org.apache.http.wire -  >> "{"ISBN":"9781491950296","userId":"63ed5293-e3eb-44cc-93b6-cd5ccf5f8565"}"
+22:14:54.093 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+22:14:54.093 [main] DEBUG org.apache.http.wire -  << "Server: nginx/1.17.10 (Ubuntu)[\r][\n]"
+22:14:54.093 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 27 Mar 2022 15:14:53 GMT[\r][\n]"
+22:14:54.093 [main] DEBUG org.apache.http.wire -  << "Content-Type: text/html; charset=utf-8[\r][\n]"
+22:14:54.093 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+22:14:54.094 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+22:14:54.094 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+22:14:54.094 [main] DEBUG org.apache.http.wire -  << "ETag: W/"c20-YaHADSLwvE3kEdwr5u3Bfu2fhF8"[\r][\n]"
+22:14:54.094 [main] DEBUG org.apache.http.wire -  << "Content-Encoding: gzip[\r][\n]"
+22:14:54.094 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+22:14:54.094 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+22:14:54.094 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+22:14:54.094 [main] DEBUG org.apache.http.headers - << Server: nginx/1.17.10 (Ubuntu)
+22:14:54.094 [main] DEBUG org.apache.http.headers - << Date: Sun, 27 Mar 2022 15:14:53 GMT
+22:14:54.094 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=utf-8
+22:14:54.094 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+22:14:54.094 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+22:14:54.094 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+22:14:54.094 [main] DEBUG org.apache.http.headers - << ETag: W/"c20-YaHADSLwvE3kEdwr5u3Bfu2fhF8"
+22:14:54.094 [main] DEBUG org.apache.http.headers - << Content-Encoding: gzip
+22:14:54.095 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+22:14:54.098 [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: text/html; charset=utf-8
+22:14:54.098 [main] DEBUG org.apache.http.wire -  << "510[\r][\n]"
+22:14:54.098 [main] DEBUG org.apache.http.wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x4][0x3][0xdd]VK[0x8f][0xdb]6[0x10][0xbe][0xfb]WL[0xd4][QR"[0xf5]vl[0x1f][0xba]m[0xe1][0x2][0xbb]h[0x81]n[0x16][0xe8]Q[0x96]hK[0x9]-[0x9][0x92][0xfc][0xd8][\r][0xf2][0xdf][0xfb][0x91][0xb2][0xb3][0x9b]TH[0xd3][0xa2][0xbd][0x14][0xde][0x95]([0xce][0xcc][0xc7]ysf[0x8b]W[0x8c][0xd1][0xfa][0xfe][0xee][0x96][0xb6]MG[0xfd][0x90][\r]UNE[0xd5][0xf]][0xb5]9[0xc]US[0xd3][0xe6]P[0x17]Z[0xe1]U[0xe9][0x82][0x18][[0xcd][0x16][0xaf]~[0xf8][0xe5][0xe6][0xfe][0xf7]_[0xa4]r[0xd8]k|[0x9b][0x17][0xe9][0xac][0xde]-[0x1d]U;fCe[0xc5]jF[0xb4][0xd8][0xab]![0xa3][0xbc][0xcc][0xba]^[\r]K[0xe7][0xcd][0xfd]O,[0x1][0x1d][0x84][0xa1][0x1a][0xb4]Z[0xfd]v[0xca]v;[0xd5][0xd1][0x9b][0x9f][0x17][0xee][0xb8]ch[0xba][0xaa][0xdf]Q[0xa7][0xf4][0xd2][0xe9][0x87]G[0xad][0xfa]R[0xa9][0xc1][0xa1][0xe1][0xb1]UKgP[0xe7][0xc1][0xcd][0xfb][0xde][0xa1][0xb2]S[0xdb][0xa5][0xc3][0xdd]~[0xc4]`[0x87][0x8a][0xdb]}[0xb][0xff][0xc]Q[0xe5]M}[0x15][0xae][0xf6][0xd9]N[0xb9]m[0xbd]{[0x96][0xde]fG[0xc3][0xc1]|y[0xf6]%[0xb7][0xa4][0xbe]zR[0xfd][0xd2][0xb1];[0xe][0xb9][0xab][0x17][0xfa]|%[0x98][0x88][0xce]"[0xfa][0x4][0xcc][0xee][0x18]0[0xd8]gL[0xb4][0x86][0x99][0xf][0xb2]>[0xb4][0x8b][0xf7][0xf6]I[0xb4]i[0xce][0xc]:T[0xf5]n[0x8e]uW[0xa8][0x8e]a[0xeb][0xf5][0x85][0xda][0x1c]U[0xb7][0xd5][0xcd]iNl[0xdf]<[0xb1]>[0xef][0x1a][0xad]7p0[0x3][0x1][0xb1][0xcb][0xf4][0xe7][0x9c][0xec]qN#[0xdb]H[0xf9]`[0x91][0xbe][0xfd]n|[0xcd]7[\n]"
+22:14:54.099 [main] DEBUG org.apache.http.wire -  << "[0x81]W[0xd7][0xaf]l;[0xa8][0xce]R[0xa6][0xd4][0xa9][0xea]Ru[0xd5]p[0xc5][0xb1]|[0x9b][0xa6]x[0xa4]+[0xf3]>[0xeb]vU=[0xf7]F[0xe][0xd8][0x92][0xe5][0xef]v][0x83][0xc][0x9a][0xd3]7[0xdb][0xcc][0xfc][0xae][0xc2][0xf0][0x82]{q[0xc3][0xc2][0x1d][0x13]f[0xb6]0`[0xab][0xd9]l[0xd1][0x1f]wt[0xde][0xeb][0x1a]q([0x87][0xa1][0x9d][0xbb][0xee][0xe9]t[0xe2]'[0x9f]7[0xdd][0xce][0x95][0x9e][0xe7][0xb9][0xe0]pF[0x96][0xf9][0xd9]D{[0x8a]Q[0xa4]i[0xea]Z[0xaa][0x83][0xcc]F*-[0x9d][0xb6][0xe9]+[0x93][0xd5][0xf3]l[0xd3]7[0xfa]0[0xa8][0xd7][0xa7][0xaa][0x18]Jh\[0xaa]jW[0xe]so[0xcc][0xcf]Bm[0xfb]1>[0x8b][0xfe]q[0xbf]i4[0x1d]+u[0xfa][0xbe]9/[0x1d][0x8f]<[0x92][0xe6][0xcf][0xa1][0xaa]X:[0x87]Z7[0xf9];UX9[0x13][0xd0]E[0x9b][\r]%[0x81]r'B[0x9e]P[0xb2][0x16][0xc1]C[0xc8][0xa3][0x1b][0x11][0x90][0xe4][0xb1][0xe7][0x93][0x90]<[0x8a]B[0x12]$<<b[0xee][0xfb][0x1][0xde][0xd1][0x85][0x1a][0x11][0x98][0x1f][0xa2]R[0x1e][0x19]O<q[0x93][0x90][0xcf][0xe3]0[0xa0][0x84][0xc7]iL[0x90][0xf6][0xc8][0xcf][0x5][0x97][0x0][0x82][0x12]di[0x12][0xb2]0[0xf6]!Y[0x7]9[0xe3]a[0x8][0x12][0x13][0xc4][0xa3] [0xc2]KX[0x92][0x88]s[0x8f]x[0x18][0xa4]<[0x90][0x89][0xd9][0xf3]S[0x9e][0x86][0x86][0xea]{[0xb1]6<P$[0x89]opx,I$<[0x89][0xa0][0x13][0xb0]H[0xa4][0xd0][0x11][0x8c]i[0x9]sr[0x3][0x81][0x83][0x85][0x81]a[0x6][0x5]K[0xe0][0xb0][0x8f]0[0x11][0x96]I[0xc]>[0x19][0x80][0x1e][0xc5][0xa0][0xfa][0xc]Z[0x8e][0xb]s\[0xf4][0x90][0x1a][0x95]nD[0xc][0xa3][0xa0]#[0xa1]X[0xfc]P[0x12][0xd4][0xb2][0xe]{rV[0xb][0xd7]8[0xf1][0x12][0x0]w[0x8c][0x0][0xf2][0xc2][0xba][0xf7]/[0xe2][0xf1]_D[0xe3][0xe2][0xd7];[0x1]'[0xaf][0x13]d[0xa3]q[0xff][0xdf]J[0xac]'[0xc7][0xf6].[[0xb4][0xb6][0x1e][0xbe]2[0x1a][0xb9]nz5U[0x1a][0x1][0xf7][0x3][0x4]<[0xe0]I[0x90]"g[0x83][0x8][0x89][0x19][0xa5][0xc][0x89]-[0xaf][0xab][0x8][0xf9][0xee][0xdd][0x9a]"[0x11]<[0x11][0xa9]f[0xa8][0x1b]d[0xac][0xcf]=[0xf9]E[0x11][0x8b][0xf6][0xe2]a1MEp j[0xd4]`[0x98]0[0x9f][0x8b][0x10]xq[0x98][0xda][0xa5][0x1c]U[0xf8]L([0xb9][\n]"
+22:14:54.099 [main] DEBUG org.apache.http.wire -  << "Y[0xd5][0xcc][0x3][0xc9].M[0xde][0x8f][0xcb][0x8f][\n]"
+22:14:54.099 [main] DEBUG org.apache.http.wire -  << "&\$>[0x90][0xa1][0x1e][0xe0]<_[0xe4]_[0x92] C[0xbc][0xfe][[0xc4][0xb1][0xa2][0x8c]vV'[0x13][0x19][0x81][0x82][0xb0][0xaa][0xda][0xb5][0xc5][0x9b][0x14]I[0xfe]id4Z[0xb5]bY[0xd7]5[0xa7][0xa9][0xf8][0xf8]\[0xa2][0xf4][0xbd][0xdb][0x88][0xb]/[0x85]&a[0x2][0x17][0xc9][0x8][0xb6][0xcb][0xf8][0xb2][0x88]=[0xc4][0x87][0xf1]4N[0xaf][0x4][0xb4]7t[0x2][0x89]R[0x87][0xab]<[0x1d][0xf3][0xc4]G[0xef]H=[0xb4][\r][0x88][0x82][0x0][0xf7][0xe1][0x1d][0x3][0x11][0xcd][0x8][0x82][0x9a][0xbd][0xe0][0xb1][0xb0][0x86][0x9][0xed][0xc2][0x3]'[0xce][0xb1]8[0x97][0xe3]$[0xd2]c<[0xe8][0xf9][0xe0][q[0xd1][0xf3]_[0xf0][0x2]+[0x9a][0x93][0x99]^L[0x93][0xf9][0xa4][0x8b][0xc7]<[0x10][0x9]z![0x1c][0x1];b9[0xea][0x9]#[0xc6][0x5][0xcc] [0xaf][0xb7][0xc6]AmkXd[\r][0x83][0xdd][0xb0]>[0xf1][0x8d][0xe3][0xe2][0x8f][0x9a][0x8f][0xb]+d[0xac][0x7][0x93][0xf5][0x81]e[0xba][0xd8]g,[0xb7]P[0xd6][0x1][0x6]y[0xea]H[[0x19][0xc6]|[0xf8][0x19][\n]"
+22:14:54.099 [main] DEBUG org.apache.http.wire -  << "[0x2]E[0x4]b[0xca][0xf]_h[0x9b][0xb8][0x92][0x82][0xf1][0x1a]{{[0xd8][0xb7]lh[0xa6][0xec]G[0xff]?[0x6]k[0xb4]f_[0xfb][0xc8][0x3]dx[0x98][0xde][0xc2]![0x9a]E[0xb8][0xb5][0xcc][0xf][0xb7][0x81]@y[0x5][0xe2][0xd6]p[0x91][0xf0][0xd7]R<[0xc4]S[0xba]X[0xd7]Nv[0xf0]gU[0xd4][0xb9][0xcd][0xea][0xc9][0xfb][0x14][0xad] )[0x83]#[0x93]%[0xb][0x8e][0xf2][0xe9][0xce][0xa7][0xe8](K[0x91]<Dk[0xff]i[0x8f]\+[0x5][0xae]M[0xb9][0xc6][0xee][0xf4][0xe1][0xb]w[0xbc][0xd8]1z[0x1c]wf[0xd0]([0xaa][0xa3][0xbd][0xc5][0x9f][0xa7]Hs[0xf9]`[0xd7]N!yW[0xb5][0x3][0xf5]][0xfe][0xe9][0xa0][0xc9][0xc6][0x91][0x98][0xbf][0xed][0x9d][0x95][0x99]b,[0x1b][0xc6][0xde]q1[0xc1][0x8f][0xb1][0xba].2[0xdd][0xd4][0x8a][0xb5][0x9d][0xc2],[0xfc][0xf5][0xa2]U][0xfd][0x89][0x1b]'[0x99]i[0xc6][0xa4]*V[0x9c][0xf8][0xd0][0xb4][0x98][0x4][0x89][0x9b]D[0xd6]MV[0xb0]C[0xa7][0xd9][0xa9][0xcb][0xda][0x16]3[0xf6]{3[0xd5][0xb7]:[0xc3]4XC[0x11][0xfa]@[0x98][0xca][0xd4][0xb6][0xaa]U1{1[0x89]]'0w[0x9c][0xed][0xff][0x0][0xc0][0xbd][0xcc][0x10] [0xc][0x0][0x0]"
+22:14:54.099 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+22:14:54.099 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+22:14:54.100 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+22:14:54.100 [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+22:14:54.102 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1610c03c
+22:14:54.103 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+22:14:54.105 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send PUT http request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send "&amp#27;[0m&amp#27;[32m&amp#27;[1mput&amp#27;[0m&amp#27;[32m" http request&amp#27;[0m                                &amp#27;[90m# starter.stepdefinitions.BookStep.sendGetHttpRequest(java.lang.String)&amp#27;[0m
+22:14:54.108 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: BookStep.receiveValidDataForDetailBook - I receive valid data for update user
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI receive valid data for "&amp#27;[0m&amp#27;[31m&amp#27;[1mupdate&amp#27;[0m&amp#27;[31m" book&amp#27;[0m                   &amp#27;[90m# starter.stepdefinitions.BookStep.receiveValidDataForDetailBook(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
+XML path 'ISBN' doesn't match.
+Expected: 123
+  Actual: <nullSwagger UInullnullnull
+    html
+    {
+      box-sizing: border-box;
+      overflow: -moz-scrollbars-vertical;
+      overflow-y: scroll;
+    }
+    *,
+    *:before,
+    *:after
+    {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin:0;
+      background: #fafafa;
+    }
+  nullnullnullnullnullnullnullnullnullnullnull
+  .swagger-ui .topbar .download-url-wrapper { display: none } undefined
+>
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:262)
+	at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:109)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at starter.book.Put.lambda$receiveValidDataForUpdateBook$0(Put.java:29)
+	at net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)
+	at starter.book.Put.receiveValidDataForUpdateBook(Put.java:29)
+	at starter.book.Put$ByteBuddy$5RMvp4zJ.receiveValidDataForUpdateBook$accessor$X2rTWb17(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:503)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:483)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:457)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:209)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:196)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:84)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at starter.book.Put$ByteBuddy$5RMvp4zJ.receiveValidDataForUpdateBook(Unknown Source)
+	at starter.stepdefinitions.BookStep.receiveValidDataForDetailBook(BookStep.java:55)
+	at âœ½.I receive valid data for "update" book(file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Books.feature:17)
+&amp#27;[0m
+22:14:54.130 [main] ERROR  - 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+PUT - As admin i have be able to replace ISBN of book
+-----------------------------------------------------------------------
+22:14:54.130 [main] DEBUG  - RELATED ISSUES: 
+22:14:54.131 [main] ERROR  -     Test failed at step: I receive valid data for update user
+22:14:54.131 [main] ERROR  -     1 expectation failed.XML path 'ISBN' doesn't match.Expected: 123  Actual: <nullSwagger UInullnullnull    html    {  box-sizing: border-box;  overflow: -moz-scrollbars-vertical;  overflow-y: scroll;    }    *,    *:before,    *:after    {  box-sizing: inherit;    }    body {  margin:0;  background: #fafafa;    }  nullnullnullnullnullnullnullnullnullnullnull  .swagger-ui .topbar .download-url-wrapper { display: none } undefined>
+]]></system-out>
+  </testcase>
+  <testcase name="DELETE - As admin i have be able to delete book" classname="Books" time="0.68">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <204> but was <200>.
+
+]]></failure>
+    <system-out><![CDATA[
+Scenario: DELETE - As admin i have be able to delete book &amp#27;[90m# src/test/resources/api/Books.feature:19&amp#27;[0m
+22:14:54.137 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Books.feature
+22:14:54.137 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Books.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+22:14:54.140 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+DELETE - As admin i have be able to delete book(books;delete---as-admin-i-have-be-able-to-delete-book)
+--------------------------------------------------------------------------------
+22:14:54.156 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: BookStep.getApiEndPoint - I set DELETE api endpoints
+22:14:54.156 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set DELETE api endpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set "&amp#27;[0m&amp#27;[32m&amp#27;[1mdelete&amp#27;[0m&amp#27;[32m" api endpoint&amp#27;[0m                       &amp#27;[90m# starter.stepdefinitions.BookStep.getApiEndPoint(java.lang.String)&amp#27;[0m
+22:14:54.160 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: BookStep.sendGetHttpRequest - I send DELETE http request
+22:14:54.163 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Delete.sendDeleteHttpRequest - I set DELETE api endpoints
+22:14:54.163 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set DELETE api endpoints
+22:14:54.170 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://demoqa.com:443
+22:14:54.170 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to demoqa.com:443
+22:14:54.579 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+22:14:54.579 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+22:14:54.579 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+22:14:54.579 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+22:14:54.579 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+22:14:54.579 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: DELETE /swagger/ HTTP/1.1
+22:14:54.579 [main] DEBUG org.apache.http.wire -  >> "DELETE /swagger/ HTTP/1.1[\r][\n]"
+22:14:54.579 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+22:14:54.579 [main] DEBUG org.apache.http.wire -  >> "Host: demoqa.com[\r][\n]"
+22:14:54.579 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+22:14:54.579 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)[\r][\n]"
+22:14:54.579 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:14:54.579 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+22:14:54.579 [main] DEBUG org.apache.http.headers - >> DELETE /swagger/ HTTP/1.1
+22:14:54.579 [main] DEBUG org.apache.http.headers - >> Accept: */*
+22:14:54.579 [main] DEBUG org.apache.http.headers - >> Host: demoqa.com
+22:14:54.579 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+22:14:54.579 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+22:14:54.579 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+22:14:54.786 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+22:14:54.786 [main] DEBUG org.apache.http.wire -  << "Server: nginx/1.17.10 (Ubuntu)[\r][\n]"
+22:14:54.786 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 27 Mar 2022 15:14:54 GMT[\r][\n]"
+22:14:54.786 [main] DEBUG org.apache.http.wire -  << "Content-Type: text/html; charset=utf-8[\r][\n]"
+22:14:54.786 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+22:14:54.786 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+22:14:54.786 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+22:14:54.787 [main] DEBUG org.apache.http.wire -  << "ETag: W/"c20-YaHADSLwvE3kEdwr5u3Bfu2fhF8"[\r][\n]"
+22:14:54.787 [main] DEBUG org.apache.http.wire -  << "Content-Encoding: gzip[\r][\n]"
+22:14:54.787 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+22:14:54.787 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+22:14:54.787 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+22:14:54.787 [main] DEBUG org.apache.http.headers - << Server: nginx/1.17.10 (Ubuntu)
+22:14:54.787 [main] DEBUG org.apache.http.headers - << Date: Sun, 27 Mar 2022 15:14:54 GMT
+22:14:54.787 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=utf-8
+22:14:54.787 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+22:14:54.787 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+22:14:54.787 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+22:14:54.787 [main] DEBUG org.apache.http.headers - << ETag: W/"c20-YaHADSLwvE3kEdwr5u3Bfu2fhF8"
+22:14:54.787 [main] DEBUG org.apache.http.headers - << Content-Encoding: gzip
+22:14:54.788 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+22:14:54.789 [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: text/html; charset=utf-8
+22:14:54.789 [main] DEBUG org.apache.http.wire -  << "510[\r][\n]"
+22:14:54.789 [main] DEBUG org.apache.http.wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x4][0x3][0xdd]VK[0x8f][0xdb]6[0x10][0xbe][0xfb]WL[0xd4][QR"[0xf5]vl[0x1f][0xba]m[0xe1][0x2][0xbb]h[0x81]n[0x16][0xe8]Q[0x96]hK[0x9]-[0x9][0x92][0xfc][0xd8][\r][0xf2][0xdf][0xfb][0x91][0xb2][0xb3][0x9b]TH[0xd3][0xa2][0xbd][0x14][0xde][0x95]([0xce][0xcc][0xc7]ysf[0x8b]W[0x8c][0xd1][0xfa][0xfe][0xee][0x96][0xb6]MG[0xfd][0x90][\r]UNE[0xd5][0xf]][0xb5]9[0xc]US[0xd3][0xe6]P[0x17]Z[0xe1]U[0xe9][0x82][0x18][[0xcd][0x16][0xaf]~[0xf8][0xe5][0xe6][0xfe][0xf7]_[0xa4]r[0xd8]k|[0x9b][0x17][0xe9][0xac][0xde]-[0x1d]U;fCe[0xc5]jF[0xb4][0xd8][0xab]![0xa3][0xbc][0xcc][0xba]^[\r]K[0xe7][0xcd][0xfd]O,[0x1][0x1d][0x84][0xa1][0x1a][0xb4]Z[0xfd]v[0xca]v;[0xd5][0xd1][0x9b][0x9f][0x17][0xee][0xb8]ch[0xba][0xaa][0xdf]Q[0xa7][0xf4][0xd2][0xe9][0x87]G[0xad][0xfa]R[0xa9][0xc1][0xa1][0xe1][0xb1]UKgP[0xe7][0xc1][0xcd][0xfb][0xde][0xa1][0xb2]S[0xdb][0xa5][0xc3][0xdd]~[0xc4]`[0x87][0x8a][0xdb]}[0xb][0xff][0xc]Q[0xe5]M}[0x15][0xae][0xf6][0xd9]N[0xb9]m[0xbd]{[0x96][0xde]fG[0xc3][0xc1]|y[0xf6]%[0xb7][0xa4][0xbe]zR[0xfd][0xd2][0xb1];[0xe][0xb9][0xab][0x17][0xfa]|%[0x98][0x88][0xce]"[0xfa][0x4][0xcc][0xee][0x18]0[0xd8]gL[0xb4][0x86][0x99][0xf][0xb2]>[0xb4][0x8b][0xf7][0xf6]I[0xb4]i[0xce][0xc]:T[0xf5]n[0x8e]uW[0xa8][0x8e]a[0xeb][0xf5][0x85][0xda][0x1c]U[0xb7][0xd5][0xcd]iNl[0xdf]<[0xb1]>[0xef][0x1a][0xad]7p0[0x3][0x1][0xb1][0xcb][0xf4][0xe7][0x9c][0xec]qN#[0xdb]H[0xf9]`[0x91][0xbe][0xfd]n|[0xcd]7[\n]"
+22:14:54.789 [main] DEBUG org.apache.http.wire -  << "[0x81]W[0xd7][0xaf]l;[0xa8][0xce]R[0xa6][0xd4][0xa9][0xea]Ru[0xd5]p[0xc5][0xb1]|[0x9b][0xa6]x[0xa4]+[0xf3]>[0xeb]vU=[0xf7]F[0xe][0xd8][0x92][0xe5][0xef]v][0x83][0xc][0x9a][0xd3]7[0xdb][0xcc][0xfc][0xae][0xc2][0xf0][0x82]{q[0xc3][0xc2][0x1d][0x13]f[0xb6]0`[0xab][0xd9]l[0xd1][0x1f]wt[0xde][0xeb][0x1a]q([0x87][0xa1][0x9d][0xbb][0xee][0xe9]t[0xe2]'[0x9f]7[0xdd][0xce][0x95][0x9e][0xe7][0xb9][0xe0]pF[0x96][0xf9][0xd9]D{[0x8a]Q[0xa4]i[0xea]Z[0xaa][0x83][0xcc]F*-[0x9d][0xb6][0xe9]+[0x93][0xd5][0xf3]l[0xd3]7[0xfa]0[0xa8][0xd7][0xa7][0xaa][0x18]Jh\[0xaa]jW[0xe]so[0xcc][0xcf]Bm[0xfb]1>[0x8b][0xfe]q[0xbf]i4[0x1d]+u[0xfa][0xbe]9/[0x1d][0x8f]<[0x92][0xe6][0xcf][0xa1][0xaa]X:[0x87]Z7[0xf9];UX9[0x13][0xd0]E[0x9b][\r]%[0x81]r'B[0x9e]P[0xb2][0x16][0xc1]C[0xc8][0xa3][0x1b][0x11][0x90][0xe4][0xb1][0xe7][0x93][0x90]<[0x8a]B[0x12]$<<b[0xee][0xfb][0x1][0xde][0xd1][0x85][0x1a][0x11][0x98][0x1f][0xa2]R[0x1e][0x19]O<q[0x93][0x90][0xcf][0xe3]0[0xa0][0x84][0xc7]iL[0x90][0xf6][0xc8][0xcf][0x5][0x97][0x0][0x82][0x12]di[0x12][0xb2]0[0xf6]!Y[0x7]9[0xe3]a[0x8][0x12][0x13][0xc4][0xa3] [0xc2]KX[0x92][0x88]s[0x8f]x[0x18][0xa4]<[0x90][0x89][0xd9][0xf3]S[0x9e][0x86][0x86][0xea]{[0xb1]6<P$[0x89]opx,I$<[0x89][0xa0][0x13][0xb0]H[0xa4][0xd0][0x11][0x8c]i[0x9]sr[0x3][0x81][0x83][0x85][0x81]a[0x6][0x5]K[0xe0][0xb0][0x8f]0[0x11][0x96]I[0xc]>[0x19][0x80][0x1e][0xc5][0xa0][0xfa][0xc]Z[0x8e][0xb]s\[0xf4][0x90][0x1a][0x95]nD[0xc][0xa3][0xa0]#[0xa1]X[0xfc]P[0x12][0xd4][0xb2][0xe]{rV[0xb][0xd7]8[0xf1][0x12][0x0]w[0x8c][0x0][0xf2][0xc2][0xba][0xf7]/[0xe2][0xf1]_D[0xe3][0xe2][0xd7];[0x1]'[0xaf][0x13]d[0xa3]q[0xff][0xdf]J[0xac]'[0xc7][0xf6].[[0xb4][0xb6][0x1e][0xbe]2[0x1a][0xb9]nz5U[0x1a][0x1][0xf7][0x3][0x4]<[0xe0]I[0x90]"g[0x83][0x8][0x89][0x19][0xa5][0xc][0x89]-[0xaf][0xab][0x8][0xf9][0xee][0xdd][0x9a]"[0x11]<[0x11][0xa9]f[0xa8][0x1b]d[0xac][0xcf]=[0xf9]E[0x11][0x8b][0xf6][0xe2]a1MEp j[0xd4]`[0x98]0[0x9f][0x8b][0x10]xq[0x98][0xda][0xa5][0x1c]U[0xf8]L([0xb9][\n]"
+22:14:54.789 [main] DEBUG org.apache.http.wire -  << "Y[0xd5][0xcc][0x3][0xc9].M[0xde][0x8f][0xcb][0x8f][\n]"
+22:14:54.790 [main] DEBUG org.apache.http.wire -  << "&\$>[0x90][0xa1][0x1e][0xe0]<_[0xe4]_[0x92] C[0xbc][0xfe][[0xc4][0xb1][0xa2][0x8c]vV'[0x13][0x19][0x81][0x82][0xb0][0xaa][0xda][0xb5][0xc5][0x9b][0x14]I[0xfe]id4Z[0xb5]bY[0xd7]5[0xa7][0xa9][0xf8][0xf8]\[0xa2][0xf4][0xbd][0xdb][0x88][0xb]/[0x85]&a[0x2][0x17][0xc9][0x8][0xb6][0xcb][0xf8][0xb2][0x88]=[0xc4][0x87][0xf1]4N[0xaf][0x4][0xb4]7t[0x2][0x89]R[0x87][0xab]<[0x1d][0xf3][0xc4]G[0xef]H=[0xb4][\r][0x88][0x82][0x0][0xf7][0xe1][0x1d][0x3][0x11][0xcd][0x8][0x82][0x9a][0xbd][0xe0][0xb1][0xb0][0x86][0x9][0xed][0xc2][0x3]'[0xce][0xb1]8[0x97][0xe3]$[0xd2]c<[0xe8][0xf9][0xe0][q[0xd1][0xf3]_[0xf0][0x2]+[0x9a][0x93][0x99]^L[0x93][0xf9][0xa4][0x8b][0xc7]<[0x10][0x9]z![0x1c][0x1];b9[0xea][0x9]#[0xc6][0x5][0xcc] [0xaf][0xb7][0xc6]AmkXd[\r][0x83][0xdd][0xb0]>[0xf1][0x8d][0xe3][0xe2][0x8f][0x9a][0x8f][0xb]+d[0xac][0x7][0x93][0xf5][0x81]e[0xba][0xd8]g,[0xb7]P[0xd6][0x1][0x6]y[0xea]H[[0x19][0xc6]|[0xf8][0x19][\n]"
+22:14:54.790 [main] DEBUG org.apache.http.wire -  << "[0x2]E[0x4]b[0xca][0xf]_h[0x9b][0xb8][0x92][0x82][0xf1][0x1a]{{[0xd8][0xb7]lh[0xa6][0xec]G[0xff]?[0x6]k[0xb4]f_[0xfb][0xc8][0x3]dx[0x98][0xde][0xc2]![0x9a]E[0xb8][0xb5][0xcc][0xf][0xb7][0x81]@y[0x5][0xe2][0xd6]p[0x91][0xf0][0xd7]R<[0xc4]S[0xba]X[0xd7]Nv[0xf0]gU[0xd4][0xb9][0xcd][0xea][0xc9][0xfb][0x14][0xad] )[0x83]#[0x93]%[0xb][0x8e][0xf2][0xe9][0xce][0xa7][0xe8](K[0x91]<Dk[0xff]i[0x8f]\+[0x5][0xae]M[0xb9][0xc6][0xee][0xf4][0xe1][0xb]w[0xbc][0xd8]1z[0x1c]wf[0xd0]([0xaa][0xa3][0xbd][0xc5][0x9f][0xa7]Hs[0xf9]`[0xd7]N!yW[0xb5][0x3][0xf5]][0xfe][0xe9][0xa0][0xc9][0xc6][0x91][0x98][0xbf][0xed][0x9d][0x95][0x99]b,[0x1b][0xc6][0xde]q1[0xc1][0x8f][0xb1][0xba].2[0xdd][0xd4][0x8a][0xb5][0x9d][0xc2],[0xfc][0xf5][0xa2]U][0xfd][0x89][0x1b]'[0x99]i[0xc6][0xa4]*V[0x9c][0xf8][0xd0][0xb4][0x98][0x4][0x89][0x9b]D[0xd6]MV[0xb0]C[0xa7][0xd9][0xa9][0xcb][0xda][0x16]3[0xf6]{3[0xd5][0xb7]:[0xc3]4XC[0x11][0xfa]@[0x98][0xca][0xd4][0xb6][0xaa]U1{1[0x89]]'0w[0x9c][0xed][0xff][0x0][0xc0][0xbd][0xcc][0x10] [0xc][0x0][0x0]"
+22:14:54.790 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+22:14:54.790 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+22:14:54.790 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+22:14:54.790 [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+22:14:54.791 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1317ac2c
+22:14:54.791 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+22:14:54.793 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send DELETE http request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send "&amp#27;[0m&amp#27;[32m&amp#27;[1mdelete&amp#27;[0m&amp#27;[32m" http request&amp#27;[0m                       &amp#27;[90m# starter.stepdefinitions.BookStep.sendGetHttpRequest(java.lang.String)&amp#27;[0m
+22:14:54.796 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: BookStep.receiveValidDataForDetailBook - I receive valid http response code 204
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI receive valid data for "&amp#27;[0m&amp#27;[31m&amp#27;[1mdelete&amp#27;[0m&amp#27;[31m" book&amp#27;[0m             &amp#27;[90m# starter.stepdefinitions.BookStep.receiveValidDataForDetailBook(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
+Expected status code <204> but was <200>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:127)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at starter.book.Delete.lambda$receiveValidHttpResponseCode204$0(Delete.java:24)
+	at net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)
+	at starter.book.Delete.receiveValidHttpResponseCode204(Delete.java:24)
+	at starter.book.Delete$ByteBuddy$SA1rXdDO.receiveValidHttpResponseCode204$accessor$fzRuxcji(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:503)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:483)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:457)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:209)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:196)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:84)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at starter.book.Delete$ByteBuddy$SA1rXdDO.receiveValidHttpResponseCode204(Unknown Source)
+	at starter.stepdefinitions.BookStep.receiveValidDataForDetailBook(BookStep.java:57)
+	at âœ½.I receive valid data for "delete" book(file:///C:/Users/RICO/IdeaProjects/18restful-api/src/test/resources/api/Books.feature:22)
+&amp#27;[0m
+22:14:54.805 [main] ERROR  - 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+DELETE - As admin i have be able to delete book
+-----------------------------------------------------------------------
+22:14:54.805 [main] DEBUG  - RELATED ISSUES: 
+22:14:54.805 [main] ERROR  -     Test failed at step: I receive valid http response code 204
+22:14:54.805 [main] ERROR  -     1 expectation failed.Expected status code <204> but was <200>.
+]]></system-out>
+  </testcase>
+</testsuite>

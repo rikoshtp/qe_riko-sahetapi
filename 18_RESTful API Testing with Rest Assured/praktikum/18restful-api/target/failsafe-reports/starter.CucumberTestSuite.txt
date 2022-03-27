@@ -1,0 +1,82 @@
+-------------------------------------------------------------------------------
+Test set: starter.CucumberTestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 23.532 s <<< FAILURE! - in starter.CucumberTestSuite
+Account.POST - As admin i have be able to login and access my account  Time elapsed: 6.926 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path 'userName' doesn't match.
+Expected: rikosh
+  Actual: <nullErrorCannot POST /Account/v1/Authorizedusers>
+
+
+Account.GET - As admin i have be able to get detail user by Id  Time elapsed: 1.051 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path 'userName' doesn't match.
+Expected: rikosh
+  Actual: <nullnullnullnullasync function detectAdBlock(){let e=!1;try{await fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")).catch(a=>e=!0)}catch(a){e=!1}finally{!0===e&&dataLayer.push({event:"Ad Blocker"}),console.log("AdBlock Enabled: ${adBlockEnabled}")}}detectAdBlock()nullToolsQAnullvar gptadslots=[],googletag=googletag||{cmd:[]}googletag.cmd.push((function(){var e=googletag.sizeMapping().addSize([0,0],[[320,50],[300,75],[300,50]]).addSize([730,200],[[728,90],[468,60]]).addSize([975,200],[[970,90],[728,90],[960,90],[750,100],[950,90],[468,60]]).build();gptadslots.push(googletag.defineSlot("/21849154601,22343295815/Ad.Plus-Anchor",[[320,100]],"adplus-anchor").setTargeting("site",["demoqa.com"]).defineSizeMapping(e).addService(googletag.pubads())),googletag.enableServices()}))nullgoogletag.cmd.push((function(){googletag.display("adplus-anchor")}))!function(e,t,a,n,g){e[n]=e[n]||[],e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var m=t.getElementsByTagName(a)[0],r=t.createElement(a);r.async=!0,r.src="https://www.googletagmanager.com/gtm.js?id=GTM-MX8DD4S",m.parentNode.insertBefore(r,m)}(window,document,"script","dataLayer")nullnullnullnullnullnull>
+
+
+Books.POST - As admin i have be able to add list of book  Time elapsed: 0.749 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path 'userId' doesn't match.
+Expected: 6c2db9bf-ceb2-4c39-90fb-c0b1d01ddc0
+  Actual: <nullSwagger UInullnullnull
+    html
+    {
+      box-sizing: border-box;
+      overflow: -moz-scrollbars-vertical;
+      overflow-y: scroll;
+    }
+    *,
+    *:before,
+    *:after
+    {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin:0;
+      background: #fafafa;
+    }
+  nullnullnullnullnullnullnullnullnullnullnull
+  .swagger-ui .topbar .download-url-wrapper { display: none } undefined
+>
+
+
+Books.PUT - As admin i have be able to replace ISBN of book  Time elapsed: 0.679 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path 'ISBN' doesn't match.
+Expected: 123
+  Actual: <nullSwagger UInullnullnull
+    html
+    {
+      box-sizing: border-box;
+      overflow: -moz-scrollbars-vertical;
+      overflow-y: scroll;
+    }
+    *,
+    *:before,
+    *:after
+    {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin:0;
+      background: #fafafa;
+    }
+  nullnullnullnullnullnullnullnullnullnullnull
+  .swagger-ui .topbar .download-url-wrapper { display: none } undefined
+>
+
+
+Books.DELETE - As admin i have be able to delete book  Time elapsed: 0.68 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <204> but was <200>.
+
+

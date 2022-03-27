@@ -1,0 +1,10 @@
+starter\account\Get.class
+starter\book\Post.class
+starter\CucumberTestSuite.class
+starter\stepdefinitions\BookStep.class
+starter\book\Get.class
+starter\stepdefinitions\AccountStep.class
+starter\book\Delete.class
+starter\book\Put.class
+starter\account\Delete.class
+starter\account\Post.class

@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Account","POST - As admin i have be able to login and access my account","FAILURE","2022-03-27T22:14:43.1821112+07:00[Asia/Bangkok]","0.0","6.66"
+"Account","GET - As admin i have be able to get detail user by Id","FAILURE","2022-03-27T22:14:49.8746608+07:00[Asia/Bangkok]","0.0","1.03"
+"Account","DELETE - As admin i have be able to delete user","SUCCESS","2022-03-27T22:14:50.953178+07:00[Asia/Bangkok]","0.0","1.03"
+"Books","GET - As admin i have be able to get detail Book","SUCCESS","2022-03-27T22:14:51.9994545+07:00[Asia/Bangkok]","0.0","0.7"
+"Books","POST - As admin i have be able to add list of book","FAILURE","2022-03-27T22:14:52.7113747+07:00[Asia/Bangkok]","0.0","0.74"
+"Books","PUT - As admin i have be able to replace ISBN of book","FAILURE","2022-03-27T22:14:53.4593809+07:00[Asia/Bangkok]","0.0","0.67"
+"Books","DELETE - As admin i have be able to delete book","FAILURE","2022-03-27T22:14:54.1404268+07:00[Asia/Bangkok]","0.0","0.67"

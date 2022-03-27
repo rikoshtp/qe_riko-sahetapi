@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Books","POST - As admin i have be able to add list of book","FAILURE","2022-03-27T22:14:52.7113747+07:00[Asia/Bangkok]","0.0","0.74"
+"Books","PUT - As admin i have be able to replace ISBN of book","FAILURE","2022-03-27T22:14:53.4593809+07:00[Asia/Bangkok]","0.0","0.67"
+"Books","DELETE - As admin i have be able to delete book","FAILURE","2022-03-27T22:14:54.1404268+07:00[Asia/Bangkok]","0.0","0.67"
