@@ -1,0 +1,6 @@
+pages\BookStorePage.class
+CucumberTestSuite.class
+pages\LoginPage.class
+pages\HomePage.class
+pages\ProfilePage.class
+starter\stepdefinition\GoLoginStep.class
