@@ -48,7 +48,7 @@ public class LoginStep {
     @And("I input username {string} and password {string}")
     public void iInputUsernameAndPassword(String username, String password) {
         loginPage.inputUserName("rikos");
-        loginPage.inputPassword("Riko@123");
+        loginPage.inputPassword("Rikos@123");
     }
 
     @And("I click login button")
