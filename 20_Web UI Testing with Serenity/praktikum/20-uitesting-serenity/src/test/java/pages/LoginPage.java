@@ -14,9 +14,9 @@ public class LoginPage extends PageObject {
     }
 
     private By loginButton(){
-        return By.cssSelector("#login");
-    }
+        return By.id("login");
 
+    }
 
     @Step
     public void validateOnLoginPage(){

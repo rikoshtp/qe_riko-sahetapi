@@ -36,7 +36,7 @@ public class LoginStep {
 
     @And("I click login button for go to the login page")
     public void clickLoginButtonForGoToTheLoginPage(){
-        bookStorePage.clickLoginButton();
+        bookStorePage.clickLoginButtonMasuk();
     }
 
     @And("I am on login page")

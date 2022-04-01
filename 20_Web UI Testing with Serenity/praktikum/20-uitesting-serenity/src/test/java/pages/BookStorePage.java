@@ -19,7 +19,7 @@ public class BookStorePage extends PageObject{
     }
 
     @Step
-    public void clickLoginButton(){
+    public void clickLoginButtonMasuk(){
         $(loginButton()).click();
     }
 

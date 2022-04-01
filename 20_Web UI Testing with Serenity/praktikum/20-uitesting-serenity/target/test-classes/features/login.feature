@@ -13,9 +13,4 @@ Feature: Login
 
 
 
-#    Scenario: As a user, i have be able to success login
-#        Given I am on login page
-#        When I type username "<username>"
-#        And I type password "<password>"
-#        And I click login button
-#        Then I am on Profile page
+

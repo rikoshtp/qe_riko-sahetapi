@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 
 public class ProfilePage extends PageObject {
     private By title(){
-        return By.className("main-header");
+        return By.cssSelector("#app > div > div > div.pattern-backgound.playgound-header > div");
     }
 
     @Step
