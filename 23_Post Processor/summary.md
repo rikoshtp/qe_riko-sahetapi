@@ -35,17 +35,17 @@ Jawab:
 
 hasil :
 
-![image](https://user-images.githubusercontent.com/75010847/161706158-258f84aa-7915-4e7e-a31f-cb633382639f.png)
+![image](https://user-images.githubusercontent.com/75010847/161927607-0ea2861d-99d6-4dfd-b7ca-f827b6d49e5f.png)
 
 2. Path 2: [GET]/api/unknown/${id}
 
-![image](https://user-images.githubusercontent.com/75010847/161706846-71ae7723-b281-4a89-99f3-d5913c7950fb.png)
+![image](https://user-images.githubusercontent.com/75010847/161927320-9500aa1a-eaf1-4810-abd8-d3a58fd3d012.png)
 
-hasil: Terjadi error karena path tidak ditemukan
-![image](https://user-images.githubusercontent.com/75010847/161706802-db53e9ea-1d1e-4681-9840-e1c5ce476b21.png)
+hasil: 
+![image](https://user-images.githubusercontent.com/75010847/161927440-c0f497e2-263d-47ea-9595-39cee5506e1b.png)
 
 
-![image](https://user-images.githubusercontent.com/75010847/161706586-5d6b9e3e-3b60-4c5a-9184-4057eca4aa07.png)
+![image](https://user-images.githubusercontent.com/75010847/161927494-ab996dbf-ea9b-4ead-9869-f36dc4665cce.png)
 
 
 3. Path 3: [POST]/api/users
@@ -54,4 +54,4 @@ hasil: Terjadi error karena path tidak ditemukan
 
 hasil: 
 
-![image](https://user-images.githubusercontent.com/75010847/161706931-49034a92-f571-448b-ab9f-ae25964c619d.png)
+![image](https://user-images.githubusercontent.com/75010847/161927649-83e62368-7493-43b2-81d8-4c9563941dc9.png)
