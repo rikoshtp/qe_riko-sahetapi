@@ -50,7 +50,7 @@ hasil:
 
 3. Path 3: [POST]/api/users
 
-![image](https://user-images.githubusercontent.com/75010847/161706894-ec7a4fc6-0cc6-45a6-817a-7f1a2b566a95.png)
+![image](https://user-images.githubusercontent.com/75010847/162139005-8042fdc6-2971-4d4e-9e36-0400cd66531a.png)
 
 hasil: 
 
