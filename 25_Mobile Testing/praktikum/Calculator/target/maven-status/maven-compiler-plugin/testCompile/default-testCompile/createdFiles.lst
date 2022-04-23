@@ -1,0 +1,10 @@
+test\automation\stepdefinitions\HistoryStep.class
+test\automation\pages\ClearNumberScreen.class
+test\automation\hooks\BaseDriverHooks.class
+test\automation\pages\MinScreen.class
+test\automation\stepdefinitions\PlusStep.class
+test\automation\stepdefinitions\MinStep.class
+CucumberTestSuite.class
+test\automation\stepdefinitions\ClearNumberStep.class
+test\automation\pages\HistoryScreen.class
+test\automation\pages\PlusScreen.class

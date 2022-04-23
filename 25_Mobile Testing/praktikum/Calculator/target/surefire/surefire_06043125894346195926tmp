@@ -1,0 +1,6 @@
+#surefire_0
+#Sun Apr 24 00:45:33 ICT 2022
+cucumber.options=--junit,--step-notifications
+basedir=C\:\\Users\\RICO\\IdeaProjects\\Calculator
+user.dir=C\:\\Users\\RICO\\IdeaProjects\\Calculator
+localRepository=C\:\\Users\\RICO\\.m2\\repository
